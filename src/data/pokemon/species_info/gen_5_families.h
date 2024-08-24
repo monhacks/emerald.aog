@@ -2874,7 +2874,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         FOOTPRINT(Venipede)
         .levelUpLearnset = sVenipedeLevelUpLearnset,
         .teachableLearnset = sVenipedeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 22, SPECIES_WHIRLIPEDE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_WHIRLIPEDE}),
     },
 
     [SPECIES_WHIRLIPEDE] =
@@ -2932,7 +2932,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         FOOTPRINT(Whirlipede)
         .levelUpLearnset = sWhirlipedeLevelUpLearnset,
         .teachableLearnset = sWhirlipedeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_SCOLIPEDE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_SCOLIPEDE}),
     },
 
     [SPECIES_SCOLIPEDE] =
@@ -3168,7 +3168,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sPetililLevelUpLearnset,
         .teachableLearnset = sPetililTeachableLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_SUN_STONE, SPECIES_LILLIGANT},
-                                {EVO_NONE, 0, SPECIES_LILLIGANT_HISUIAN}),
+                                {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_LILLIGANT_HISUIAN}),
     },
 
     [SPECIES_LILLIGANT] =
@@ -7269,7 +7269,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sTynamoLevelUpLearnset,
         .teachableLearnset = sTynamoTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_EELEKTRIK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 23, SPECIES_EELEKTRIK}),
     },
 
     [SPECIES_EELEKTRIK] =
@@ -7323,7 +7323,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         FOOTPRINT(Eelektrik)
         .levelUpLearnset = sEelektrikLevelUpLearnset,
         .teachableLearnset = sEelektrikTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_EELEKTROSS}),
+        .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_EELEKTROSS},
+                                {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_EELEKTROSS}),
     },
 
     [SPECIES_EELEKTROSS] =

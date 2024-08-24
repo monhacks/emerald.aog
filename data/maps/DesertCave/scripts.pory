@@ -1,0 +1,40 @@
+mapscripts DesertCave_MapScripts{
+
+}
+
+script DesertCave_Rock_Shop {
+    lock
+    faceplayer
+    message(RockShopIntro)
+    waitmessage
+    pokemart(DesertCave_Pokemart_RockShop)
+    msgbox(RockShopOutro)
+    release
+    end
+}
+
+text RockShopIntro {
+    "Ahoy! Would you be interested in buying\n"
+    "some rare rocks and stones?"
+}
+
+text RockShopOutro{
+    "I'll be here if you want to buy more."
+}
+
+raw`
+.align 2
+DesertCave_Pokemart_RockShop::
+	.2byte ITEM_HARD_STONE
+    .2byte ITEM_KINGS_ROCK
+    .2byte ITEM_ICE_STONE
+    .2byte ITEM_EVIOLITE
+    .2byte ITEM_ROCKY_HELMET
+    .2byte ITEM_HEAT_ROCK
+    .2byte ITEM_DAMP_ROCK
+    .2byte ITEM_SMOOTH_ROCK
+    .2byte ITEM_ICY_ROCK
+	.2byte ITEM_NONE
+	release
+	end
+`

@@ -1,0 +1,49 @@
+mapscripts DeepPetalburgWoods_MapScripts {
+    
+}
+script DeepPetalburgWoods_EventScript_Jimmy_Battle{
+    trainerbattle_single(TRAINER_JIMMY, JimmyIntro, JimmyOutro)
+    msgbox(JimmyBeaten, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+
+text JimmyIntro{
+    "Gah! You found my secret bug catching\n"
+    "spot!"
+}
+
+text JimmyOutro{
+    "I thought my secret rare bug POKéMON\n"
+    "would be stronger..."
+}
+
+text JimmyBeaten{
+    "Let me know if you find any rare bug\n"
+    "POKéMON!"
+}
+
+script DeepPetalburgWoods_EventScript_Eustace_Battle{
+    trainerbattle_single(TRAINER_EUSTACE, EustaceIntro, EustaceOutro)
+    msgbox(EustaceBeaten, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+
+text EustaceIntro{
+    "Haha! Behold the the power of my\n"
+    "rainstorm team!"
+}
+
+text EustaceOutro{
+    "My storm petered out."
+}
+
+text EustaceBeaten{
+    "My goal is to be as amazing as the\n"
+    "great GYM LEADER WALLACE.\p"
+    "Guess I still have a lot of\n"
+    "training to do before I get there."
+}

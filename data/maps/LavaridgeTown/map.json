@@ -180,6 +180,13 @@
       "elevation": 3,
       "dest_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": "3"
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_HOT_SPRINGS_CAVE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
@@ -220,7 +227,7 @@
     },
     {
       "type": "sign",
-      "x": 13,
+      "x": 14,
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

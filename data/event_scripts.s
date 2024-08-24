@@ -1072,3 +1072,23 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/RusturfDepths/scripts.inc"
+
+	.include "data/maps/DewfordOutskirts/scripts.inc"
+
+	.include "data/maps/DewfordMansion/scripts.inc"
+
+	.include "data/maps/DewfordMasionRoom/scripts.inc"
+
+	.include "data/maps/DeepPetalburgWoods/scripts.inc"
+
+	.include "data/maps/DesertCave/scripts.inc"
+
+	.include "data/maps/DesertCaveB1/scripts.inc"
+
+	.include "data/maps/VerdanturfSanctuary/scripts.inc"
+
+	.include "data/maps/MeteorFalls_1F_3R/scripts.inc"
+
+	.include "data/maps/HotSpringsCave/scripts.inc"

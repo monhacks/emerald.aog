@@ -1,0 +1,37 @@
+mapscripts DesertCaveB1_MapScripts{
+
+}
+
+script DesertCaveB1_Slash_Tutor {
+    faceplayer
+    lock
+    msgbox (MoveTutor_Text_Slash_Tutor_Intro, MSGBOX_DEFAULT)
+	waitmessage
+    call(MoveTutor_EventScript_Slash_Tutor)
+	msgbox(MoveTutor_Text_Slash_Tutor_Outro2)
+	release
+}
+
+script MoveTutor_EventScript_Slash_Tutor_Exit{
+    msgbox (MoveTutor_Text_Slash_Tutor_Outro, MSGBOX_DEFAULT)
+    release
+    end
+}
+
+text MoveTutor_Text_Slash_Tutor_Intro {
+    "Hiyah! I'm who they call the Slash Tutor!\n"
+    "My fists cut through my opponents, and I\n"
+    "can teach your POKéMON to do this as well!"
+}
+
+text MoveTutor_Text_Slash_Tutor_Select {
+    "What move would you like to learn?"
+}
+
+text MoveTutor_Text_Slash_Tutor_Outro {
+    "Perhaps next time, then..."
+}
+
+text MoveTutor_Text_Slash_Tutor_Outro2 {
+    "Haha! Another excellent student!"
+}

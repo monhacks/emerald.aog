@@ -1,0 +1,118 @@
+{
+  "id": "MAP_DEEP_PETALBURG_WOODS",
+  "name": "DeepPetalburgWoods",
+  "layout": "LAYOUT_DEEP_PETALBURG_WOODS",
+  "music": "MUS_PETALBURG_WOODS",
+  "region_map_section": "MAPSEC_DEEP_PETALBURG_WOODS",
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_PETALBURG_WOODS",
+      "offset": 12,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 31,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_SEE_ALL_DIRECTIONS",
+      "trainer_sight_or_berry_tree_id": "ITEM_LEEK",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_DEEP_PETALBURG_WOODS_LEEK"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 10,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_DAMP_ROCK",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_DEEP_PETALBURG_WOODS_DAMP_ROCK"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
+      "x": 25,
+      "y": 28,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 3,
+      "movement_range_y": 3,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "DeepPetalburgWoods_EventScript_Jimmy_Battle",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "DeepPetalburgWoods_EventScript_Eustace_Battle",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 16,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM55",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_DEEP_PETALBURG_WOODS_TM55"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 31,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM52",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_DEEP_PETALBURG_WOODS_TM52"
+    }
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 24,
+      "y": 5,
+      "elevation": 0,
+      "item": "ITEM_BALM_MUSHROOM",
+      "flag": "FLAG_HIDDEN_ITEM_DEEP_PETALBURG_WOODS_BALM_MUSHROOM"
+    }
+  ]
+}

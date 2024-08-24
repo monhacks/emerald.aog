@@ -51,7 +51,32 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT)\
+    F(ROOST)\
+    F(U_TURN)\
+    F(DRAGON_DANCE)\
+    F(SNARL)\
+    F(FALSE_SWIPE)\
+    F(STEALTH_ROCK)\
+    F(ICE_PUNCH)\
+    F(FIRE_PUNCH)\
+    F(THUNDER_PUNCH)\
+    F(BULLDOZE)\
+    F(CURSE)\
+    F(DRAIN_PUNCH)\
+    F(PAYBACK)\
+    F(POISON_JAB)\
+    F(TRAILBLAZE)\
+    F(SCALE_SHOT)\
+    F(CHILLING_WATER)\
+    F(DAZZLING_GLEAM)\
+    F(DRAONG_TAIL)\
+    F(BODY_PRESS)\
+    F(WILL_O_WISP)\
+    F(STONE_EDGE)\
+    F(SWORDS_DANCE)\
+    F(STEEL_BEAM)\
+    F(NASTY_PLOT)
 
 #define FOREACH_HM(F) \
     F(CUT) \

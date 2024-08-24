@@ -1,0 +1,211 @@
+{
+  "id": "MAP_DESERT_CAVE_B1",
+  "name": "DesertCaveB1",
+  "layout": "LAYOUT_DESERT_CAVE_B1",
+  "music": "MUS_PETALBURG",
+  "region_map_section": "MAPSEC_DESERT_CAVE",
+  "requires_flash": true,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 18,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_SMOOTH_ROCK",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_DESERT_CAVE_B1_SMOOTH_ROCK"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 11,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_DUSK_STONE",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_DESERT_CAVE_B1_DUSK_STONE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 19,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_StrengthBoulder",
+      "flag": "FLAG_TEMP_10"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 15,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_11"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 27,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_12"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 21,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_13"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 19,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_14"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 13,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_15"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 12,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_16"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 20,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_17"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 18,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_RockSmash",
+      "flag": "FLAG_TEMP_18"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "x": 22,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DesertCaveB1_Slash_Tutor",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_DESERT_CAVE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_DESERT_CAVE",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_BIG_NUGGET",
+      "flag": "FLAG_HIDDEN_ITEM_DESERT_CAVE_B1_BIG_NUGGET"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 9,
+      "elevation": 0,
+      "item": "ITEM_NUGGET",
+      "flag": "FLAG_HIDDEN_ITEM_DESERT_CAVE_B1_NUGGET"
+    }
+  ]
+}

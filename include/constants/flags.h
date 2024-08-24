@@ -652,17 +652,17 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
+#define FLAG_HIDDEN_ITEM_RUSTURF_DEPTHS_NEVERMELTICE  0x264 // Unused Flag
+#define FLAG_HIDDEN_ITEM_DEWFORD_MANSION_REAPER_CLOTH  0x265 // Unused Flag
+#define FLAG_HIDDEN_ITEM_DEWFORD_MANSION_NUGGET  0x266 // Unused Flag
+#define FLAG_HIDDEN_ITEM_DEWFORD_MANSION_REVIVE  0x267 // Unused Flag
+#define FLAG_HIDDEN_ITEM_DEEP_PETALBURG_WOODS_BALM_MUSHROOM  0x268 // Unused Flag
+#define FLAG_HIDDEN_ITEM_VERDANTURF_SANCTUARY_SUN_STONE  0x269 // Unused Flag
+#define FLAG_HIDDEN_ITEM_VERDANTURF_SANCTUARY_SHINY_STONE  0x26A // Unused Flag
+#define FLAG_HIDDEN_ITEM_DESERT_CAVE_B1_BIG_NUGGET  0x26A // Unused Flag
+#define FLAG_HIDDEN_ITEM_DESERT_CAVE_B1_NUGGET  0x26C // Unused Flag
+#define FLAG_HIDDEN_ITEM_METEOR_FALLS_1F_3R_DAWN_STONE   0x26D // Unused Flag
+#define FLAG_HIDDEN_ITEM_METEOR_FALLS_1F_3R_COMET_SHARD  0x26E // Unused Flag
 #define FLAG_UNUSED_0x26F  0x26F // Unused Flag
 #define FLAG_UNUSED_0x270  0x270 // Unused Flag
 #define FLAG_UNUSED_0x271  0x271 // Unused Flag
@@ -1056,7 +1056,7 @@
 #define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
 #define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0x3F0
 #define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1
-#define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2
+#define FLAG_ITEM_ROUTE_111_TM67                                    0x3F2
 #define FLAG_ITEM_ROUTE_112_NUGGET                                  0x3F3
 #define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
@@ -1086,7 +1086,7 @@
 #define FLAG_ITEM_ROUTE_133_BIG_PEARL                               0x40D
 #define FLAG_ITEM_ROUTE_133_STAR_PIECE                              0x40E
 #define FLAG_ITEM_PETALBURG_CITY_MAX_REVIVE                         0x40F
-#define FLAG_ITEM_PETALBURG_CITY_ETHER                              0x410
+#define FLAG_ITEM_PETALBURG_CITY_WATER_STONE                        0x410
 #define FLAG_ITEM_RUSTBORO_CITY_X_DEFEND                            0x411
 #define FLAG_ITEM_LILYCOVE_CITY_MAX_REPEL                           0x412
 #define FLAG_ITEM_MOSSDEEP_CITY_NET_BALL                            0x413
@@ -1158,9 +1158,9 @@
 #define FLAG_ITEM_ROUTE_123_ELIXIR                                  0x455
 #define FLAG_ITEM_NEW_MAUVILLE_THUNDER_STONE                        0x456
 #define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0x457
-#define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_HAIL                       0x458
+#define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM57                          0x458
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459
-#define FLAG_ITEM_ROUTE_103_GUARD_SPEC                              0x45A
+#define FLAG_ITEM_ROUTE_103_LEEK                                    0x45A
 #define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B
 #define FLAG_ITEM_MAUVILLE_CITY_X_SPEED                             0x45C
 #define FLAG_ITEM_PETALBURG_WOODS_PARALYZE_HEAL                     0x45D
@@ -1218,23 +1218,23 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 
-#define FLAG_UNUSED_0x493                                           0x493 // Unused Flag
-#define FLAG_UNUSED_0x494                                           0x494 // Unused Flag
-#define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
-#define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
-#define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
-#define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
-#define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
-#define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
-#define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
-#define FLAG_UNUSED_0x49C                                           0x49C // Unused Flag
-#define FLAG_UNUSED_0x49D                                           0x49D // Unused Flag
-#define FLAG_UNUSED_0x49E                                           0x49E // Unused Flag
-#define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
-#define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
+#define FLAG_ITEM_RUSTURF_DEPTHS_TM07                               0x493 // Unused Flag
+#define FLAG_ITEM_RUSTURF_DEPTHS_SUPER_POTION                       0x494 // Unused Flag
+#define FLAG_ITEM_RUSTURF_DEPTHS_ICY_ROCK                           0x495 // Unused Flag
+#define FLAG_ITEM_DEEP_PETALBURG_WOODS_LEEK                         0x496 // Unused Flag
+#define FLAG_ITEM_DEEP_PETALBURG_WOODS_DAMP_ROCK                    0x497 // Unused Flag
+#define FLAG_ITEM_METEOR_FALLS_1F_3R_DRAGON_SCALE                   0x498 // Unused Flag
+#define FLAG_ITEM_METEOR_FALLS_1F_3R_TM69                           0x499 // Unused Flag
+#define FLAG_ITEM_DEEP_PETALBURG_WOODS_TM55                         0x49A // Unused Flag
+#define FLAG_ITEM_HOT_SPRINGS_CAVE_TM58                             0x49B // Unused Flag
+#define FLAG_ITEM_DESERT_CAVE_TM56                                  0x49C // Unused Flag
+#define FLAG_ITEM_DESERT_CAVE_B1_SMOOTH_ROCK                        0x49D // Unused Flag
+#define FLAG_ITEM_DESERT_CAVE_B1_DUSK_STONE                         0x49E // Unused Flag
+#define FLAG_ITEM_DESERT_CAVE_THICK_CLUB                            0x49F // Unused Flag
+#define FLAG_ITEM_DEEP_PETALBURG_WOODS_TM52                         0x4A0 // Unused Flag
+#define FLAG_ITEM_NEW_MAUVILLE_TM59                                 0x4A1 // Unused Flag
+#define FLAG_ITEM_FIERY_PATH_TM60                                   0x4A2 // Unused Flag
+#define FLAG_ITEM_ROUTE_114_TM54                                    0x4A3 // Unused Flag
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
 #define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag

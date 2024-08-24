@@ -2068,7 +2068,7 @@ MatchCall_Text_Roxanne4::
 	.string "is a matter of pride.$"
 
 MatchCall_Text_Brawly1::
-	.string "BRAWLY: Hey, there, {PLAYER}{KUN}!\p"
+	.string "PHOEBE: Hey, there, {PLAYER}{KUN}!\p"
 	.string "I learned a lot from the battle we\n"
 	.string "had together.\p"
 	.string "I intend to do my training over,\n"
@@ -2079,7 +2079,7 @@ MatchCall_Text_Brawly1::
 	.string "I want you to challenge us again.$"
 
 MatchCall_Text_Brawly2::
-	.string "BRAWLY: Hey, {PLAYER}{KUN}!\n"
+	.string "PHOEBE: Hey, {PLAYER}{KUN}!\n"
 	.string "Congratulations!\p"
 	.string "Word about your exploits arrived\n"
 	.string "on tidal winds!\p"
@@ -2091,13 +2091,13 @@ MatchCall_Text_Brawly2::
 	.string "I want you to challenge us again.$"
 
 MatchCall_Text_Brawly3::
-	.string "BRAWLY: Hey, {PLAYER}{KUN}!\n"
+	.string "PHOEBE: Hey, {PLAYER}{KUN}!\n"
 	.string "My GYM's ready for action!\p"
 	.string "Come back to DEWFORD anytime\n"
 	.string "for another challenge!$"
 
 MatchCall_Text_Brawly4::
-	.string "BRAWLY: {PLAYER}{KUN}, I don't think\n"
+	.string "PHOEBE: {PLAYER}{KUN}, I don't think\n"
 	.string "I'll ever get bored of battling you!$"
 
 MatchCall_Text_Wattson1::

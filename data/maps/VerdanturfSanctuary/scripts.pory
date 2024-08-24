@@ -1,0 +1,26 @@
+mapscripts VerdanturfSanctuary_MapScripts {
+    
+}
+
+script VerdanturfSanctuary_EventScript_Lacey_Battle{
+    trainerbattle_single(TRAINER_LACEY, LaceyIntro, LaceyOutro)
+    msgbox(LaceyBeaten, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+
+text LaceyIntro{
+    "Let me dazzle you with my beautiful\n"
+    "POKéMON and the power of the sun!"
+}
+
+text LaceyOutro{
+    "I guess my sun has set...\n"
+}
+
+text LaceyBeaten{
+    "I'm training to be as great as Flannery\n"
+    "one day. Isn't her Torkoal the cutest?\n"    
+}
+

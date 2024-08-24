@@ -11,12 +11,30 @@ LavaridgeTown_HerbShop_EventScript_Clerk::
 	release
 	end
 
+LavaridgeTown_HerbShop_EventScript_CupClerk::
+	lock
+	faceplayer
+	message LavaridgeTown_HerbShop_Text_HerbShopTeaCups
+	waitmessage
+	pokemart LavaridgeTown_TeaCupShop_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
 	.align 2
 LavaridgeTown_HerbShop_Pokemart:
 	.2byte ITEM_ENERGY_POWDER
 	.2byte ITEM_ENERGY_ROOT
 	.2byte ITEM_HEAL_POWDER
 	.2byte ITEM_REVIVAL_HERB
+	.2byte ITEM_NONE
+	release
+	end
+
+	.align 2
+LavaridgeTown_TeaCupShop_Pokemart:
+	.2byte ITEM_MASTERPIECE_TEACUP
+	.2byte ITEM_UNREMARKABLE_TEACUP
 	.2byte ITEM_NONE
 	release
 	end
@@ -64,3 +82,6 @@ LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike:
 	.string "But your POKéMON will dislike you for it.\l"
 	.string "It must be horribly bitter!$"
 
+LavaridgeTown_HerbShop_Text_HerbShopTeaCups:
+	.string "Although this is the HERB SHOP, we sell\n"
+	.string "antique teacups as well.$"

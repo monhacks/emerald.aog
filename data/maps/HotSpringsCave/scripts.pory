@@ -1,0 +1,97 @@
+mapscripts HotSpringsCave_MapScripts {
+    
+}
+
+script HotspringsCave_Nature_Maniac_Shop {
+    lock
+    faceplayer
+    message(NatureManiacIntro)
+    waitmessage
+    pokemart(HotSpringsCave_Pokemart_NatureManiac)
+    msgbox(NatureManiacOutro)
+    release
+    end
+}
+
+script HotSpringsCave_Girl_3 {
+    message(Girl3Text)
+    end
+}
+
+raw`
+
+.align 2
+HotSpringsCave_Pokemart_NatureManiac::
+	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_LONELY_MINT
+	.2byte ITEM_ADAMANT_MINT
+	.2byte ITEM_NAUGHTY_MINT
+	.2byte ITEM_BRAVE_MINT
+	.2byte ITEM_BOLD_MINT
+	.2byte ITEM_IMPISH_MINT
+	.2byte ITEM_LAX_MINT
+	.2byte ITEM_RELAXED_MINT
+	.2byte ITEM_MODEST_MINT
+	.2byte ITEM_MILD_MINT
+	.2byte ITEM_RASH_MINT
+	.2byte ITEM_QUIET_MINT
+	.2byte ITEM_CALM_MINT
+	.2byte ITEM_GENTLE_MINT
+	.2byte ITEM_CAREFUL_MINT
+	.2byte ITEM_SASSY_MINT
+	.2byte ITEM_TIMID_MINT
+	.2byte ITEM_HASTY_MINT
+	.2byte ITEM_JOLLY_MINT
+	.2byte ITEM_NAIVE_MINT
+	.2byte ITEM_NONE
+	release
+	end
+`
+
+text NatureManiacIntro {
+    "Kehehe. I'm the Nature Maniac. My mints\n"
+    "will change the nature of your POKéMON!"
+}
+
+text NatureManiacOutro{
+    "Kehehe. A pleasure doing business."
+}
+
+text Girl3Text{
+    "Apparently Flannery trains here when\n"
+    "she isn't busy at her Gym."
+}
+
+script HotSpring_Tutor {
+    faceplayer
+    lock
+    msgbox (MoveTutor_Text_HotSpring_Tutor_Intro, MSGBOX_DEFAULT)
+	waitmessage
+    call(MoveTutor_EventScript_HotSpring_Tutor)
+	msgbox(MoveTutor_Text_HotSpring_Tutor_Outro2)
+	release
+}
+
+script MoveTutor_EventScript_HotSpring_Tutor_Exit{
+    msgbox (MoveTutor_Text_HotSpring_Tutor_Outro, MSGBOX_DEFAULT)
+    release
+    end
+}
+
+text MoveTutor_Text_HotSpring_Tutor_Intro {
+	"Hello, dear. I come down to this cave to\n"
+	"train my body and spirit. I can also teach\n"
+	"your POKéMON moves if you'd like."
+}
+
+text MoveTutor_Text_HotSpring_Tutor_Select {
+    "What move would you like to learn?"
+}
+
+text MoveTutor_Text_HotSpring_Tutor_Outro {
+    "Perhaps another time, then?"
+}
+
+text MoveTutor_Text_HotSpring_Tutor_Outro2 {
+    "Come back anytime, dearie!"
+}

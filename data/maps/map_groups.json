@@ -92,7 +92,10 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "RusturfDepths",
+    "DewfordOutskirts",
+    "VerdanturfSanctuary"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -429,7 +432,14 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "DewfordMansion",
+    "DewfordMasionRoom",
+    "DeepPetalburgWoods",
+    "DesertCave",
+    "DesertCaveB1",
+    "MeteorFalls_1F_3R",
+    "HotSpringsCave"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "songs.h": "c",
+        "link.h": "c"
+    }
+}

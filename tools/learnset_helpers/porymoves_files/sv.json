@@ -24349,7 +24349,12 @@
       "MOVE_COVET",
       "MOVE_POISON_FANG"
     ],
-    "TutorMoves": []
+    "TutorMoves": [
+      "MOVE_FIRE_FANG",
+      "MOVE_THUNDER_FANG",
+      "MOVE_ICE_FANG",
+      "MOVE_POISON_FANG"
+    ]
   },
   "MIGHTYENA": {
     "LevelMoves": [
@@ -31510,7 +31515,8 @@
       "MOVE_PAIN_SPLIT",
       "MOVE_PSYCH_UP",
       "MOVE_SKITTER_SMACK",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_PAYBACK"
     ],
     "EggMoves": [
       "MOVE_CONFUSE_RAY",
@@ -31632,7 +31638,8 @@
       "MOVE_PSYCH_UP",
       "MOVE_SKITTER_SMACK",
       "MOVE_THROAT_CHOP",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_PAYBACK"
     ],
     "EggMoves": [
       "MOVE_CONFUSE_RAY",
@@ -62611,7 +62618,8 @@
       "MOVE_TERA_BLAST",
       "MOVE_SUPER_FANG",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_ENDEAVOR"
+      "MOVE_ENDEAVOR",
+      "MOVE_POISON_FANG"
     ],
     "EggMoves": [
       "MOVE_ENDEAVOR",
@@ -62732,7 +62740,8 @@
       "MOVE_FOCUS_PUNCH",
       "MOVE_DOUBLE_EDGE",
       "MOVE_ENDEAVOR",
-      "MOVE_CURSE"
+      "MOVE_CURSE",
+      "MOVE_POISON_FANG"
     ],
     "EggMoves": [
       "MOVE_ENDEAVOR",
@@ -63392,7 +63401,12 @@
       "MOVE_DUAL_WINGBEAT",
       "MOVE_PSYCH_UP",
       "MOVE_FEATHER_DANCE",
-      "MOVE_ALLURING_VOICE"
+      "MOVE_ALLURING_VOICE",
+      "MOVE_HEX",
+      "MOVE_DISCHARGE",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_FIERY_DANCE",
+      "MOVE_PSYCHIC"
     ],
     "EggMoves": [
       "MOVE_ATTRACT",
@@ -64952,14 +64966,18 @@
   "STUFFUL": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_ROCK_SMASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "BEWEAR": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_ROCK_SMASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -65877,7 +65895,15 @@
     "PreEvoMoves": [],
     "TMMoves": [],
     "EggMoves": [],
-    "TutorMoves": []
+    "TutorMoves": [
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_ICE_PUNCH",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_HAMMER_ARM",
+      "MOVE_FOCUS_PUNCH",
+      "MOVE_POISON_JAB"
+    ]
   },
   "TYPE_NULL": {
     "LevelMoves": [],

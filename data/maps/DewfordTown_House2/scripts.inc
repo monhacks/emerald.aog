@@ -53,5 +53,5 @@ DewfordTown_House2_Text_BrawlySoCool:
 	.string "Did you maybe come here because you\n"
 	.string "heard about BRAWLY?\p"
 	.string "He's so cool…\n"
-	.string "Everyone idolizes him.$"
+	.string "But he's not here anymore...$"
 
