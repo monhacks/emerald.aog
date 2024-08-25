@@ -59,7 +59,7 @@
       "x": 14,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_METEOR_FALLS_1F_3R",
+      "dest_map": "MAP_METEOR_FALLS_1F_1R",
       "dest_warp_id": "6"
     }
   ],
@@ -81,7 +81,7 @@
       "y": 10,
       "elevation": 0,
       "item": "ITEM_COMET_SHARD",
-      "flag": "FLAG_HIDDEN_ITEM_METEOR_FALLS_1F_3R_DAWN_STONE"
+      "flag": "FLAG_HIDDEN_ITEM_METEOR_FALLS_1F_3R_COMET_SHARD"
     }
   ]
 }

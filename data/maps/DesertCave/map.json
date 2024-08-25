@@ -2,7 +2,7 @@
   "id": "MAP_DESERT_CAVE",
   "name": "DesertCave",
   "layout": "LAYOUT_DESERT_CAVE",
-  "music": "MUS_PETALBURG",
+  "music": "MUS_PETALBURG_WOODS",
   "region_map_section": "MAPSEC_DESERT_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

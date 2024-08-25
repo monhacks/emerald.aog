@@ -19,7 +19,7 @@ script MoveTutor_EventScript_Slash_Tutor_Exit{
 }
 
 text MoveTutor_Text_Slash_Tutor_Intro {
-    "Hiyah! I'm who they call the Slash Tutor!\n"
+    "Hiyah! I'm who they call the Slash Tutor!\p"
     "My fists cut through my opponents, and I\n"
     "can teach your POKéMON to do this as well!"
 }

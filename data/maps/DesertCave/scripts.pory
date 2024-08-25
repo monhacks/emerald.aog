@@ -28,6 +28,7 @@ DesertCave_Pokemart_RockShop::
 	.2byte ITEM_HARD_STONE
     .2byte ITEM_KINGS_ROCK
     .2byte ITEM_ICE_STONE
+    .2byte ITEM_PRISM_SCALE
     .2byte ITEM_EVIOLITE
     .2byte ITEM_ROCKY_HELMET
     .2byte ITEM_HEAT_ROCK

@@ -33,22 +33,24 @@ DesertCave_Pokemart_RockShop::
 # 30 "data/maps/DesertCave/scripts.pory"
     .2byte ITEM_ICE_STONE
 # 31 "data/maps/DesertCave/scripts.pory"
-    .2byte ITEM_EVIOLITE
+    .2byte ITEM_PRISM_SCALE
 # 32 "data/maps/DesertCave/scripts.pory"
-    .2byte ITEM_ROCKY_HELMET
+    .2byte ITEM_EVIOLITE
 # 33 "data/maps/DesertCave/scripts.pory"
-    .2byte ITEM_HEAT_ROCK
+    .2byte ITEM_ROCKY_HELMET
 # 34 "data/maps/DesertCave/scripts.pory"
-    .2byte ITEM_DAMP_ROCK
+    .2byte ITEM_HEAT_ROCK
 # 35 "data/maps/DesertCave/scripts.pory"
-    .2byte ITEM_SMOOTH_ROCK
+    .2byte ITEM_DAMP_ROCK
 # 36 "data/maps/DesertCave/scripts.pory"
-    .2byte ITEM_ICY_ROCK
+    .2byte ITEM_SMOOTH_ROCK
 # 37 "data/maps/DesertCave/scripts.pory"
-	.2byte ITEM_NONE
+    .2byte ITEM_ICY_ROCK
 # 38 "data/maps/DesertCave/scripts.pory"
-	release
+	.2byte ITEM_NONE
 # 39 "data/maps/DesertCave/scripts.pory"
+	release
+# 40 "data/maps/DesertCave/scripts.pory"
 	end
 
 RockShopIntro::

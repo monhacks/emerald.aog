@@ -7235,11 +7235,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_BANETTE] =
     {
         .baseHP        = 70,
-        .baseAttack    = 125,
-        .baseDefense   = 65,
-        .baseSpeed     = 90,
+        .baseAttack    = 115,
+        .baseDefense   = 70,
+        .baseSpeed     = 75,
         .baseSpAttack  = 60,
-        .baseSpDefense = 65,
+        .baseSpDefense = 70,
         .types = MON_TYPES(TYPE_GHOST, TYPE_NORMAL),
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 159 : 179,

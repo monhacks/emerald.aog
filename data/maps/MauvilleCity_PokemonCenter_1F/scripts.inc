@@ -166,7 +166,7 @@ MoveTutor_EventScript_Fang_Tutor_Exit::
 MoveTutor_Text_Fang_Tutor_Intro::
 # 90 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Ah, hello! I'm what people call the Fang\n"
-	.string "Tutor. I can teach your POKéMON various\n"
+	.string "Tutor. I can teach your POKéMON various\p"
 	.string "biting moves.$"
 
 MoveTutor_Text_Fang_Tutor_select::

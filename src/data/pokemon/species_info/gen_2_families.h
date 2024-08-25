@@ -2301,12 +2301,12 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 
     [SPECIES_SUNFLORA] =
     {
-        .baseHP        = 90,
-        .baseAttack    = 50,
-        .baseDefense   = 80,
+        .baseHP        = 75,
+        .baseAttack    = 55,
+        .baseDefense   = 70,
         .baseSpeed     = 30,
         .baseSpAttack  = 105,
-        .baseSpDefense = 85,
+        .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_GRASS, TYPE_NORMAL),
         .catchRate = 120,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 149 : 146,

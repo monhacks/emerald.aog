@@ -5,7 +5,7 @@ mapscripts HotSpringsCave_MapScripts {
 script HotspringsCave_Nature_Maniac_Shop {
     lock
     faceplayer
-    message(NatureManiacIntro)
+    msgbox(NatureManiacIntro)
     waitmessage
     pokemart(HotSpringsCave_Pokemart_NatureManiac)
     msgbox(NatureManiacOutro)
@@ -14,7 +14,10 @@ script HotspringsCave_Nature_Maniac_Shop {
 }
 
 script HotSpringsCave_Girl_3 {
-    message(Girl3Text)
+	lock
+	faceplayer
+    msgbox(Girl3Text)
+	release
     end
 }
 
@@ -49,12 +52,12 @@ HotSpringsCave_Pokemart_NatureManiac::
 `
 
 text NatureManiacIntro {
-    "Kehehe. I'm the Nature Maniac. My mints\n"
-    "will change the nature of your POKéMON!"
+    format("Kehehe. I'm the Nature Maniac. My mints\n"
+    "will change the nature of your POKéMON!")
 }
 
 text NatureManiacOutro{
-    "Kehehe. A pleasure doing business."
+    format("Kehehe. A pleasure doing business.")
 }
 
 text Girl3Text{
@@ -63,8 +66,9 @@ text Girl3Text{
 }
 
 script HotSpring_Tutor {
-    faceplayer
     lock
+	faceplayer
+	release
     msgbox (MoveTutor_Text_HotSpring_Tutor_Intro, MSGBOX_DEFAULT)
 	waitmessage
     call(MoveTutor_EventScript_HotSpring_Tutor)
@@ -80,7 +84,7 @@ script MoveTutor_EventScript_HotSpring_Tutor_Exit{
 
 text MoveTutor_Text_HotSpring_Tutor_Intro {
 	"Hello, dear. I come down to this cave to\n"
-	"train my body and spirit. I can also teach\n"
+	"train my body and spirit. I can also teach\p"
 	"your POKéMON moves if you'd like."
 }
 

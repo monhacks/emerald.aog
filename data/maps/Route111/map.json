@@ -670,7 +670,7 @@
       "y": 34,
       "elevation": 0,
       "dest_map": "MAP_DESERT_CAVE",
-      "dest_warp_id": "0"
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [

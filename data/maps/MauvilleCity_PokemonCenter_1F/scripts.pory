@@ -88,20 +88,20 @@ script MoveTutor_EventScript_Fang_Tutor_Exit{
 }
 
 text MoveTutor_Text_Fang_Tutor_Intro {
-    "Ah, hello! I'm what people call the Fang\n"
-    "Tutor. I can teach your POKéMON various\n"
-	"biting moves."
+    format("Ah, hello! I'm what people call the Fang\n"
+    "Tutor. I can teach your POKéMON various\p"
+	"biting moves.")
 }
 
 text MoveTutor_Text_Fang_Tutor_select {
-    "What move would you like to learn?"
+    format("What move would you like to learn?")
 }
 
 text MoveTutor_Text_Fang_Tutor_Outro {
-    "Perhaps another time, then?"
+     format("Perhaps another time, then?")
 }
 
 text MoveTutor_Text_Fang_Tutor_Outro2 {
-    "Come back anytime!"
+    format("Come back anytime!")
 }
 

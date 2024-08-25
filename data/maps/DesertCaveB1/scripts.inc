@@ -30,7 +30,7 @@ MoveTutor_EventScript_Slash_Tutor_Exit::
 
 MoveTutor_Text_Slash_Tutor_Intro::
 # 21 "data/maps/DesertCaveB1/scripts.pory"
-	.string "Hiyah! I'm who they call the Slash Tutor!\n"
+	.string "Hiyah! I'm who they call the Slash Tutor!\p"
 	.string "My fists cut through my opponents, and I\n"
 	.string "can teach your POKéMON to do this as well!$"
 

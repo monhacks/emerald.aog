@@ -3542,8 +3542,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .lvl = 30,
     .species = SPECIES_TORKOAL,
     .heldItem = ITEM_HEAT_ROCK,
-    .moves = {MOVE_OVERHEAT, MOVE_IRON_DEFENSE, MOVE_BODY_PRESS, MOVE_ATTRACT},
-    .ability = ABILITY_DROUGHT,
+    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_BODY_PRESS, MOVE_ATTRACT},
     },
     {
     .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
@@ -3557,7 +3556,7 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .lvl = 31,
     .species = SPECIES_HOUNDOOM,
     .heldItem = ITEM_HEAT_ROCK,
-    .moves = {MOVE_OVERHEAT, MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY, MOVE_ATTRACT},
+    .moves = {MOVE_OVERHEAT, MOVE_TRAILBLAZE, MOVE_SUNNY_DAY, MOVE_ATTRACT},
     .ability = ABILITY_UNNERVE,
     },
     {
@@ -3572,7 +3571,6 @@ static const struct TrainerMon sParty_Flannery1[] = {
     .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
     .lvl = 33,
     .species = SPECIES_SALAZZLE,
-    .heldItem = ITEM_WHITE_HERB,
     .moves = {MOVE_OVERHEAT, MOVE_NASTY_PLOT, MOVE_TOXIC, MOVE_ATTRACT},
     },
     
