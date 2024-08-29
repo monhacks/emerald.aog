@@ -31639,7 +31639,8 @@
       "MOVE_SKITTER_SMACK",
       "MOVE_THROAT_CHOP",
       "MOVE_CURSE",
-      "MOVE_PAYBACK"
+      "MOVE_PAYBACK",
+      "MOVE_NIGHT_SLASH"
     ],
     "EggMoves": [
       "MOVE_CONFUSE_RAY",
@@ -56856,7 +56857,8 @@
       "MOVE_TERA_BLAST",
       "MOVE_DUAL_WINGBEAT",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_FEATHER_DANCE"
+      "MOVE_FEATHER_DANCE",
+      "MOVE_TRAILBLAZE"
     ],
     "EggMoves": [
       "MOVE_DEFOG",
@@ -56961,7 +56963,8 @@
       "MOVE_DUAL_WINGBEAT",
       "MOVE_DOUBLE_EDGE",
       "MOVE_TEMPER_FLARE",
-      "MOVE_FEATHER_DANCE"
+      "MOVE_FEATHER_DANCE",
+      "MOVE_TRAILBLAZE"
     ],
     "EggMoves": [
       "MOVE_DEFOG",
@@ -57079,7 +57082,8 @@
       "MOVE_DOUBLE_EDGE",
       "MOVE_TEMPER_FLARE",
       "MOVE_FEATHER_DANCE",
-      "MOVE_UPPER_HAND"
+      "MOVE_UPPER_HAND",
+      "MOVE_TRAILBLAZE"
     ],
     "EggMoves": [
       "MOVE_DEFOG",

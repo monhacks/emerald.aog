@@ -9043,7 +9043,7 @@ static const struct TrainerMon sParty_WallyMauville[] = {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
     .lvl = 23,
     .species = SPECIES_FLETCHINDER,
-    .moves = {MOVE_ACROBATICS, MOVE_FLAME_CHARGE, MOVE_GROWL, MOVE_NONE},
+    .moves = {MOVE_ACROBATICS, MOVE_FLAME_CHARGE, MOVE_GROWL, MOVE_TRAILBLAZE},
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -9160,15 +9160,20 @@ static const struct TrainerMon sParty_WallyVR4[] = {
 
 static const struct TrainerMon sParty_WallyVR5[] = {
     {
-    .lvl = 10,
+    .lvl = 16,
     .species = SPECIES_NYMBLE,
     },
     {
-    .lvl = 10,
-    .species = SPECIES_BUDEW,
+    .lvl = 16,
+    .species = SPECIES_ROSELIA,
     },
     {
-    .lvl = 10,
+    .lvl = 16,
+    .species = SPECIES_FLETCHLING,
+    .moves = {MOVE_TRAILBLAZE, MOVE_PECK, MOVE_EMBER, MOVE_QUICK_ATTACK}
+    },
+    {
+    .lvl = 16,
     .species = SPECIES_RALTS,
     }   
 };
