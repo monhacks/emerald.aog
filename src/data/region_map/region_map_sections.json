@@ -1714,7 +1714,7 @@
     },
     {
       "map_section": "MAPSEC_DEWFORD_OUTSKIRTS",
-      "name": "DEWFORD OUTSKIRTS",
+      "name": "DEWFORD OUTSKIRT",
       "x": 1,
       "y": 14,
       "width": 1,
@@ -1757,6 +1757,14 @@
       "name": "RUSTURF DEPTHS",
       "x": 2,
       "y": 5,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ROUGH_CAVE",
+      "name": "ROUGH CAVE",
+      "x": 8,
+      "y": 4,
       "width": 1,
       "height": 1
     }

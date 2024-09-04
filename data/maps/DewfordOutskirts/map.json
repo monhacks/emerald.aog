@@ -2,7 +2,7 @@
   "id": "MAP_DEWFORD_OUTSKIRTS",
   "name": "DewfordOutskirts",
   "layout": "LAYOUT_DEWFORD_OUTSKIRTS",
-  "music": "MUS_DEWFORD",
+  "music": "MUS_ROUTE104",
   "region_map_section": "MAPSEC_DEWFORD_OUTSKIRTS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

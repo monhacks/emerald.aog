@@ -46,7 +46,7 @@
 #define FLAG_RECIEVED_EXP_SHARE     0x21 
 #define FLAG_HIDE_WALLY_ROUTE_104    0x22 // Unused Flag
 #define FLAG_WALLY_ROUTE_104_BEATEN    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
+#define FLAG_HIDE_PETALBURG_CITY_WALLY_REVISIT    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
@@ -1073,7 +1073,7 @@
 #define FLAG_ITEM_ROUTE_119_SUPER_REPEL                             0x400
 #define FLAG_ITEM_ROUTE_119_ZINC                                    0x401
 #define FLAG_ITEM_ROUTE_119_ELIXIR_1                                0x402
-#define FLAG_ITEM_ROUTE_119_LEAF_STONE                              0x403
+#define FLAG_ITEM_ROUTE_119_TM64                                    0x403
 #define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0x404
 #define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0x405
 #define FLAG_ITEM_ROUTE_120_NUGGET                                  0x406
@@ -1158,7 +1158,7 @@
 #define FLAG_ITEM_ROUTE_123_ELIXIR                                  0x455
 #define FLAG_ITEM_NEW_MAUVILLE_THUNDER_STONE                        0x456
 #define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0x457
-#define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM57                          0x458
+#define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM79                          0x458
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459
 #define FLAG_ITEM_ROUTE_103_LEEK                                    0x45A
 #define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B
@@ -1235,13 +1235,13 @@
 #define FLAG_ITEM_NEW_MAUVILLE_TM59                                 0x4A1 // Unused Flag
 #define FLAG_ITEM_FIERY_PATH_TM60                                   0x4A2 // Unused Flag
 #define FLAG_ITEM_ROUTE_114_TM54                                    0x4A3 // Unused Flag
-#define FLAG_RECIEVED_TM65                                          0x4A4 // Unused Flag
-#define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
-#define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_TM57                                   0x4A4 // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_TM07                                   0x4A5 // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_TM77                                   0x4A6 // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_ROCKY_HELMET                           0x4A7 // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_SAFETY_GOGGLES                         0x4A8 // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_NEVER_MELT_ICE                         0x4A9 // Unused Flag
+#define FLAG_ITEM_ROUGH_CAVE_ICE_STONE                              0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag

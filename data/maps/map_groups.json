@@ -439,7 +439,10 @@
     "DesertCave",
     "DesertCaveB1",
     "MeteorFalls_1F_3R",
-    "HotSpringsCave"
+    "HotSpringsCave",
+    "RoughCave",
+    "RoughCaveB1",
+    "RoughCaveB2"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

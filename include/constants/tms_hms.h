@@ -76,7 +76,12 @@
     F(STONE_EDGE)\
     F(SWORDS_DANCE)\
     F(STEEL_BEAM)\
-    F(NASTY_PLOT)
+    F(NASTY_PLOT)\
+    F(SEED_BOMB)\
+    F(THUNDER_WAVE)\
+    F(KNOCK_OFF)\
+    F(TRIPLE_AXEL)\
+    F(WEATHER_BALL)
 
 #define FOREACH_HM(F) \
     F(CUT) \

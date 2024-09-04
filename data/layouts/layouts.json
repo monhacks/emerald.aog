@@ -4510,6 +4510,36 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/HotSpringsCave/border.bin",
       "blockdata_filepath": "data/layouts/HotSpringsCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUGH_CAVE",
+      "name": "RoughCave_Layout",
+      "width": 32,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RoughCave/border.bin",
+      "blockdata_filepath": "data/layouts/RoughCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUGH_CAVE_B1",
+      "name": "RoughCaveB1_Layout",
+      "width": 35,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RoughCaveB1/border.bin",
+      "blockdata_filepath": "data/layouts/RoughCaveB1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUGH_CAVE_B2",
+      "name": "RoughCaveB2_Layout",
+      "width": 35,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RoughCaveB2/border.bin",
+      "blockdata_filepath": "data/layouts/RoughCaveB2/map.bin"
     }
   ]
 }

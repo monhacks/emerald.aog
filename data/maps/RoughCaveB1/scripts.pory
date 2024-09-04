@@ -1,0 +1,17 @@
+mapscripts RoughCaveB1_MapScripts {
+    
+}
+
+script RoughCaveB1_Hiker {
+	lock
+	faceplayer
+    msgbox(RoughCaveHikerText)
+	release
+    end
+}
+
+text RoughCaveHikerText{
+    "There's a chilling breeze in here, but I\n"
+    "can't figure out where it's coming from…\p"
+    "Perhaps somewhere further in…"
+}

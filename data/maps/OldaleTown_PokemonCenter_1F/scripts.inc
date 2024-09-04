@@ -127,13 +127,13 @@ OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
 # 64 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "I traded POKéMON right away.$"
 
-DewfordTown_PokemonCenter_1F_EventScript_ExpShareKid::
+OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid::
 # 68 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	lock
 # 69 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	faceplayer
 # 70 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	goto_if_unset FLAG_RECIEVED_EXP_SHARE, DewfordTown_PokemonCenter_1F_EventScript_ExpShareKid_2
+	goto_if_unset FLAG_RECIEVED_EXP_SHARE, OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid_2
 # 79 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	msgbox EXPShareKidExplain, MSGBOX_DEFAULT
 # 80 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
@@ -142,7 +142,7 @@ DewfordTown_PokemonCenter_1F_EventScript_ExpShareKid::
 	release
 	end
 
-DewfordTown_PokemonCenter_1F_EventScript_ExpShareKid_2:
+OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid_2:
 # 71 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	msgbox EXPShareKidIntro, MSGBOX_DEFAULT
 # 72 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"

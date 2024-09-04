@@ -1092,3 +1092,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MeteorFalls_1F_3R/scripts.inc"
 
 	.include "data/maps/HotSpringsCave/scripts.inc"
+
+	.include "data/maps/RoughCave/scripts.inc"
+
+	.include "data/maps/RoughCaveB1/scripts.inc"
+
+	.include "data/maps/RoughCaveB2/scripts.inc"

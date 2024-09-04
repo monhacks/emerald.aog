@@ -410,6 +410,9 @@
 #define MAP_DESERT_CAVE_B1                           (112 | (24 << 8))
 #define MAP_METEOR_FALLS_1F_3R                       (113 | (24 << 8))
 #define MAP_HOT_SPRINGS_CAVE                         (114 | (24 << 8))
+#define MAP_ROUGH_CAVE                               (115 | (24 << 8))
+#define MAP_ROUGH_CAVE_B1                            (116 | (24 << 8))
+#define MAP_ROUGH_CAVE_B2                            (117 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (25 << 8))

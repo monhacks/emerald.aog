@@ -64,7 +64,7 @@ OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
 	.string "I traded POKéMON right away.$"
 
 `
-script DewfordTown_PokemonCenter_1F_EventScript_ExpShareKid {
+script OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid {
     lock
     faceplayer
     if(flag(FLAG_RECIEVED_EXP_SHARE) == FALSE){

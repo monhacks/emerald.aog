@@ -46,14 +46,14 @@
 #define TRAINER_ROSE_2                       40
 #define TRAINER_ROSE_3                       41
 #define TRAINER_ROSE_4                       42
-#define TRAINER_ROSE_5                       43
+#define TRAINER_STARK                        43
 #define TRAINER_DUSTY_1                      44
 #define TRAINER_CHIP                         45
 #define TRAINER_FOSTER                       46
 #define TRAINER_DUSTY_2                      47
 #define TRAINER_DUSTY_3                      48
 #define TRAINER_DUSTY_4                      49
-#define TRAINER_DUSTY_5                      50
+#define TRAINER_ANELACE                      50
 #define TRAINER_GABBY_AND_TY_1               51
 #define TRAINER_GABBY_AND_TY_2               52
 #define TRAINER_GABBY_AND_TY_3               53
@@ -662,8 +662,8 @@
 #define TRAINER_WALLY_MAUVILLE              656
 #define TRAINER_WALLY_VR_2                  657
 #define TRAINER_WALLY_VR_3                  658
-#define TRAINER_WALLY_VR_4                  659
-#define TRAINER_WALLY_VR_5                  660
+#define TRAINER_WALLY_PETALBURG             659
+#define TRAINER_WALLY_ROUTE_104             660
 #define TRAINER_BRENDAN_LILYCOVE_MUDKIP     661
 #define TRAINER_BRENDAN_LILYCOVE_TREECKO    662
 #define TRAINER_BRENDAN_LILYCOVE_TORCHIC    663
@@ -776,7 +776,7 @@
 #define TRAINER_ROXANNE_2                   770
 #define TRAINER_ROXANNE_3                   771
 #define TRAINER_ROXANNE_4                   772
-#define TRAINER_ROXANNE_5                   773
+#define TRAINER_COURTNEY_MT_CHIMNEY         773
 #define TRAINER_BRAWLY_2                    774
 #define TRAINER_BRAWLY_3                    775
 #define TRAINER_BRAWLY_4                    776

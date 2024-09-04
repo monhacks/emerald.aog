@@ -1188,7 +1188,7 @@ script Route104_EventScript_Wally{
 }
 
 script Route104_EventScript_WallyBattle{
-    trainerbattle_no_intro(TRAINER_WALLY_VR_5, Route104_Text_WallyDefeated)
+    trainerbattle_no_intro(TRAINER_WALLY_ROUTE_104, Route104_Text_WallyDefeated)
     call(Route104_EventScript_WallyBattleOver)
 }
 

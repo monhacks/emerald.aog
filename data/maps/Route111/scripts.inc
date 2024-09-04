@@ -376,6 +376,10 @@ Route111_EventScript_WinstrateHouseSign::
 	msgbox Route111_Text_WinstrateHouseSign, MSGBOX_SIGN
 	end
 
+Route111_EventScript_RoughCaveSignMauville::
+	msgbox Route111_Text_RoughCaveSign, MSGBOX_SIGN
+	end
+
 Route111_EventScript_RouteSign112::
 	msgbox Route111_Text_RouteSign112, MSGBOX_SIGN
 	end
@@ -727,3 +731,5 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+Route111_Text_RoughCaveSign:
+	.string "{LEFT_ARROW} ROUGH CAVE ENTRANCE$"

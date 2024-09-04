@@ -1,0 +1,26 @@
+mapscripts RoughCaveB2_MapScripts {
+    
+}
+
+script RoughCaveB2_EventScript_AnelaceBattle{
+    trainerbattle_single(TRAINER_ANELACE, AnelaceIntro, AnelaceOutro)
+    msgbox(AnelaceBeaten, MSGBOX_DEFAULT)
+    waitmessage
+    end
+}
+
+
+text AnelaceIntro{
+    "Can you withstand the power of a\n"
+    "snowstorm?"
+}
+
+text AnelaceOutro{
+    "What a chilling battle."
+}
+
+text AnelaceBeaten{
+    "I thought I could hone my skills down\n"
+    "here, but it might be a little too cold."    
+}
+

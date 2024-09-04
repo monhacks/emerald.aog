@@ -125,7 +125,7 @@ VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "I bet you're surprised to see me here!\p"
 	.string "I made it all the way here, and it's\n"
 	.string "all thanks to you!\p"
-	.string "{PLAYER}, losing to you that time\n"
+	.string "{PLAYER}, losing to you those times\n"
 	.string "made me stronger!\p"
 	.string "But I'm not going to lose anymore!\p"
 	.string "I'm going to win! For the POKéMON who\n"

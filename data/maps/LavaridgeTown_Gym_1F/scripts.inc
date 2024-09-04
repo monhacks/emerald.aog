@@ -70,6 +70,7 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	setvar VAR_0x8008, 4
 	call Common_EventScript_SetGymTrainers
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY_REVISIT
 	setvar VAR_LAVARIDGE_TOWN_STATE, 1
 	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
 	closemessage

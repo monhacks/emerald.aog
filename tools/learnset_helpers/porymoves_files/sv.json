@@ -5019,7 +5019,8 @@
       "MOVE_DOUBLE_EDGE",
       "MOVE_ENDEAVOR",
       "MOVE_WHIRLPOOL",
-      "MOVE_MUDDY_WATER"
+      "MOVE_MUDDY_WATER",
+      "MOVE_CURSE"
     ],
     "EggMoves": [
       "MOVE_ENDEAVOR",
@@ -5160,7 +5161,9 @@
       "MOVE_MUDDY_WATER",
       "MOVE_COACHING",
       "MOVE_THROAT_CHOP",
-      "MOVE_UPPER_HAND"
+      "MOVE_UPPER_HAND",
+      "MOVE_BODY_PRESS",
+      "MOVE_CURSE"
     ],
     "EggMoves": [
       "MOVE_ENDEAVOR",
@@ -16187,7 +16190,9 @@
       "MOVE_DOUBLE_EDGE",
       "MOVE_ENDEAVOR",
       "MOVE_WHIRLPOOL",
-      "MOVE_MUDDY_WATER"
+      "MOVE_MUDDY_WATER",
+      "MOVE_SNARL",
+      "MOVE_CURSE"
     ],
     "EggMoves": [
       "MOVE_ENDEAVOR",
@@ -18723,7 +18728,9 @@
   "STEELIX": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DRAGON_TAIL"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -27220,7 +27227,8 @@
       "MOVE_COACHING",
       "MOVE_THROAT_CHOP",
       "MOVE_CURSE",
-      "MOVE_UPPER_HAND"
+      "MOVE_UPPER_HAND",
+      "MOVE_PAYBACK"
     ],
     "EggMoves": [
       "MOVE_BULLET_PUNCH",
@@ -29820,7 +29828,8 @@
       "MOVE_BREAKING_SWIPE",
       "MOVE_DRAGON_CHEER",
       "MOVE_ALLURING_VOICE",
-      "MOVE_PSYCHIC_NOISE"
+      "MOVE_PSYCHIC_NOISE",
+      "MOVE_QUIVER_DANCE"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -63413,7 +63422,12 @@
       "MOVE_DISCHARGE",
       "MOVE_THUNDER_WAVE",
       "MOVE_FIERY_DANCE",
-      "MOVE_PSYCHIC"
+      "MOVE_PSYCHIC",
+      "MOVE_SHOCK_WAVE",
+      "MOVE_FIRE_SPIN",
+      "MOVE_STORED_POWER",
+      "MOVE_HEAT_WAVE",
+      "MOVE_DAZZLING_GLEAM"
     ],
     "EggMoves": [
       "MOVE_ATTRACT",

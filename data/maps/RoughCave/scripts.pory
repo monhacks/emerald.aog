@@ -1,0 +1,25 @@
+mapscripts RoughCave_MapScripts {
+    
+}
+
+script RoughCave_EventScript_StarkBattle{
+   trainerbattle_single(TRAINER_STARK, StarkIntro, StarkOutro)
+    msgbox(StarkBeaten, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+
+text StarkIntro{
+    "YEEEEEEEAAAARGH!"
+}
+
+text StarkOutro{
+    "Huff…Huff…I need to…catch…my breath…"
+}
+
+text StarkBeaten{
+    "Sorry. It's just so dark in here that\n"
+    "you startled me."    
+}
+

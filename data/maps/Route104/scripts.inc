@@ -2348,228 +2348,232 @@ Route104_Text_BrendanPostBattle:
 Route104_EventScript_Wally::
 # 1177 "data/maps/Route104/scripts.pory"
 	goto_if_set FLAG_WALLY_ROUTE_104_BEATEN, Route104_EventScript_Wally_2
-# 1182 "data/maps/Route104/scripts.pory"
-	msgbox Route104_Text_WallyIntro, MSGBOX_DEFAULT
-# 1183 "data/maps/Route104/scripts.pory"
-	call Route104_EventScript_WallyBattle
 # 1184 "data/maps/Route104/scripts.pory"
+	msgbox Route104_Text_WallyIntro, MSGBOX_DEFAULT
+# 1185 "data/maps/Route104/scripts.pory"
+	call Route104_EventScript_WallyBattle
+# 1186 "data/maps/Route104/scripts.pory"
 	releaseall
 	end
 
 Route104_EventScript_Wally_2:
 # 1178 "data/maps/Route104/scripts.pory"
-	msgbox Route104_Text_WallyPostEncounter, MSGBOX_DEFAULT
+	lock
 # 1179 "data/maps/Route104/scripts.pory"
+	faceplayer
+# 1180 "data/maps/Route104/scripts.pory"
+	msgbox Route104_Text_WallyPostEncounter, MSGBOX_DEFAULT
+# 1181 "data/maps/Route104/scripts.pory"
 	release
 	end
 
 
 Route104_EventScript_WallyBattle::
-# 1189 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_WALLY_VR_5, Route104_Text_WallyDefeated
-# 1190 "data/maps/Route104/scripts.pory"
+# 1191 "data/maps/Route104/scripts.pory"
+	trainerbattle_no_intro TRAINER_WALLY_ROUTE_104, Route104_Text_WallyDefeated
+# 1192 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_WallyBattleOver
 	return
 
 
 Route104_EventScript_WallyBattleOver::
-# 1194 "data/maps/Route104/scripts.pory"
-	setvar VAR_WALLY_ROUTE_104_STATE, 2
-# 1195 "data/maps/Route104/scripts.pory"
-	setflag FLAG_WALLY_ROUTE_104_BEATEN
 # 1196 "data/maps/Route104/scripts.pory"
-	msgbox Route104_Text_WallyGiveTrailblaze, MSGBOX_DEFAULT
+	setvar VAR_WALLY_ROUTE_104_STATE, 2
 # 1197 "data/maps/Route104/scripts.pory"
-	giveitem ITEM_TM65
+	setflag FLAG_WALLY_ROUTE_104_BEATEN
 # 1198 "data/maps/Route104/scripts.pory"
-	msgbox Route104_Text_WallyPostTrailblaze, MSGBOX_DEFAULT
+	msgbox Route104_Text_WallyGiveTrailblaze, MSGBOX_DEFAULT
 # 1199 "data/maps/Route104/scripts.pory"
+	giveitem ITEM_TM65
+# 1200 "data/maps/Route104/scripts.pory"
+	msgbox Route104_Text_WallyPostTrailblaze, MSGBOX_DEFAULT
+# 1201 "data/maps/Route104/scripts.pory"
 	releaseall
 	end
 
 
 Route104_EventScript_WallyTrigger1::
-# 1233 "data/maps/Route104/scripts.pory"
-	lockall
-# 1234 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyFaceRight
 # 1235 "data/maps/Route104/scripts.pory"
-	playse SE_PIN
+	lockall
 # 1236 "data/maps/Route104/scripts.pory"
-	waitmovement 0
+	applymovement 35, WallyFaceRight
 # 1237 "data/maps/Route104/scripts.pory"
-	delay 30
+	playse SE_PIN
 # 1238 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyMovement1
-# 1239 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+# 1239 "data/maps/Route104/scripts.pory"
+	delay 30
 # 1240 "data/maps/Route104/scripts.pory"
+	applymovement 35, WallyMovement1
+# 1241 "data/maps/Route104/scripts.pory"
+	waitmovement 0
+# 1242 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_Wally
 	return
 
 
 Route104_EventScript_WallyTrigger2::
-# 1244 "data/maps/Route104/scripts.pory"
-	lockall
-# 1245 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyFaceRight
 # 1246 "data/maps/Route104/scripts.pory"
-	playse SE_PIN
+	lockall
 # 1247 "data/maps/Route104/scripts.pory"
-	waitmovement 0
+	applymovement 35, WallyFaceRight
 # 1248 "data/maps/Route104/scripts.pory"
-	delay 30
+	playse SE_PIN
 # 1249 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyMovement2
-# 1250 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+# 1250 "data/maps/Route104/scripts.pory"
+	delay 30
 # 1251 "data/maps/Route104/scripts.pory"
+	applymovement 35, WallyMovement2
+# 1252 "data/maps/Route104/scripts.pory"
+	waitmovement 0
+# 1253 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_Wally
 	return
 
 
 Route104_EventScript_WallyTrigger3::
-# 1255 "data/maps/Route104/scripts.pory"
-	lockall
-# 1256 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyFaceRight
 # 1257 "data/maps/Route104/scripts.pory"
-	playse SE_PIN
+	lockall
 # 1258 "data/maps/Route104/scripts.pory"
-	waitmovement 0
+	applymovement 35, WallyFaceRight
 # 1259 "data/maps/Route104/scripts.pory"
-	delay 30
+	playse SE_PIN
 # 1260 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyMovement3
-# 1261 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+# 1261 "data/maps/Route104/scripts.pory"
+	delay 30
 # 1262 "data/maps/Route104/scripts.pory"
+	applymovement 35, WallyMovement3
+# 1263 "data/maps/Route104/scripts.pory"
+	waitmovement 0
+# 1264 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_Wally
 	return
 
 
 Route104_EventScript_WallyTrigger4::
-# 1266 "data/maps/Route104/scripts.pory"
-	lockall
-# 1267 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyFaceDown
 # 1268 "data/maps/Route104/scripts.pory"
-	playse SE_PIN
+	lockall
 # 1269 "data/maps/Route104/scripts.pory"
-	waitmovement 0
+	applymovement 35, WallyFaceDown
 # 1270 "data/maps/Route104/scripts.pory"
-	delay 30
+	playse SE_PIN
 # 1271 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyMovement4
-# 1272 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+# 1272 "data/maps/Route104/scripts.pory"
+	delay 30
 # 1273 "data/maps/Route104/scripts.pory"
+	applymovement 35, WallyMovement4
+# 1274 "data/maps/Route104/scripts.pory"
+	waitmovement 0
+# 1275 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_Wally
 	return
 
 
 Route104_EventScript_WallyTrigger5::
-# 1277 "data/maps/Route104/scripts.pory"
-	lockall
-# 1278 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyFaceDown
 # 1279 "data/maps/Route104/scripts.pory"
-	playse SE_PIN
+	lockall
 # 1280 "data/maps/Route104/scripts.pory"
-	waitmovement 0
+	applymovement 35, WallyFaceDown
 # 1281 "data/maps/Route104/scripts.pory"
-	delay 30
+	playse SE_PIN
 # 1282 "data/maps/Route104/scripts.pory"
-	applymovement 35, WallyMovement5
-# 1283 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+# 1283 "data/maps/Route104/scripts.pory"
+	delay 30
 # 1284 "data/maps/Route104/scripts.pory"
+	applymovement 35, WallyMovement5
+# 1285 "data/maps/Route104/scripts.pory"
+	waitmovement 0
+# 1286 "data/maps/Route104/scripts.pory"
 	call Route104_EventScript_Wally
 	return
 
 
-# 1287 "data/maps/Route104/scripts.pory"
-WallyFaceRight:
-# 1288 "data/maps/Route104/scripts.pory"
-	face_right
 # 1289 "data/maps/Route104/scripts.pory"
-	emote_exclamation_mark
+WallyFaceRight:
 # 1290 "data/maps/Route104/scripts.pory"
-	step_end
-
-# 1293 "data/maps/Route104/scripts.pory"
-WallyFaceDown:
-# 1294 "data/maps/Route104/scripts.pory"
-	face_down
-# 1295 "data/maps/Route104/scripts.pory"
+	face_right
+# 1291 "data/maps/Route104/scripts.pory"
 	emote_exclamation_mark
-# 1296 "data/maps/Route104/scripts.pory"
+# 1292 "data/maps/Route104/scripts.pory"
 	step_end
 
-# 1299 "data/maps/Route104/scripts.pory"
-WallyMovement1:
-# 1300 "data/maps/Route104/scripts.pory"
-	walk_right
+# 1295 "data/maps/Route104/scripts.pory"
+WallyFaceDown:
+# 1296 "data/maps/Route104/scripts.pory"
+	face_down
+# 1297 "data/maps/Route104/scripts.pory"
+	emote_exclamation_mark
+# 1298 "data/maps/Route104/scripts.pory"
+	step_end
+
 # 1301 "data/maps/Route104/scripts.pory"
-	walk_up
+WallyMovement1:
 # 1302 "data/maps/Route104/scripts.pory"
 	walk_right
+# 1303 "data/maps/Route104/scripts.pory"
+	walk_up
+# 1304 "data/maps/Route104/scripts.pory"
+	walk_right
 	step_end
 
-# 1305 "data/maps/Route104/scripts.pory"
-WallyMovement2:
-# 1306 "data/maps/Route104/scripts.pory"
-	walk_right
 # 1307 "data/maps/Route104/scripts.pory"
+WallyMovement2:
+# 1308 "data/maps/Route104/scripts.pory"
+	walk_right
+# 1309 "data/maps/Route104/scripts.pory"
 	walk_right
 	step_end
 
-# 1310 "data/maps/Route104/scripts.pory"
-WallyMovement3:
-# 1311 "data/maps/Route104/scripts.pory"
-	walk_right
 # 1312 "data/maps/Route104/scripts.pory"
-	walk_down
+WallyMovement3:
 # 1313 "data/maps/Route104/scripts.pory"
 	walk_right
-	step_end
-
-# 1316 "data/maps/Route104/scripts.pory"
-WallyMovement4:
-# 1317 "data/maps/Route104/scripts.pory"
+# 1314 "data/maps/Route104/scripts.pory"
 	walk_down
-# 1318 "data/maps/Route104/scripts.pory"
-	walk_down
-	step_end
-
-# 1321 "data/maps/Route104/scripts.pory"
-WallyMovement5:
-# 1322 "data/maps/Route104/scripts.pory"
-	walk_down
-# 1323 "data/maps/Route104/scripts.pory"
+# 1315 "data/maps/Route104/scripts.pory"
 	walk_right
+	step_end
+
+# 1318 "data/maps/Route104/scripts.pory"
+WallyMovement4:
+# 1319 "data/maps/Route104/scripts.pory"
+	walk_down
+# 1320 "data/maps/Route104/scripts.pory"
+	walk_down
+	step_end
+
+# 1323 "data/maps/Route104/scripts.pory"
+WallyMovement5:
 # 1324 "data/maps/Route104/scripts.pory"
+	walk_down
+# 1325 "data/maps/Route104/scripts.pory"
+	walk_right
+# 1326 "data/maps/Route104/scripts.pory"
 	walk_down
 	step_end
 
 Route104_Text_WallyIntro::
-# 1203 "data/maps/Route104/scripts.pory"
+# 1205 "data/maps/Route104/scripts.pory"
 	.string "WALLY: Ah! {PLAYER}, I knew you'd\n"
 	.string "come here. I've caught my own team\p"
 	.string "of POKéMON now, so please battle me.$"
 
 Route104_Text_WallyDefeated::
-# 1209 "data/maps/Route104/scripts.pory"
+# 1211 "data/maps/Route104/scripts.pory"
 	.string "WALLY: … … … … … … …\p"
 	.string "I lost…$"
 
 Route104_Text_WallyGiveTrailblaze::
-# 1214 "data/maps/Route104/scripts.pory"
+# 1216 "data/maps/Route104/scripts.pory"
 	.string "WALLY: … … … … … … …\p"
 	.string "Here, take this.$"
 
 Route104_Text_WallyPostTrailblaze::
-# 1219 "data/maps/Route104/scripts.pory"
+# 1221 "data/maps/Route104/scripts.pory"
 	.string "Trailblaze is a TM that increases\n"
 	.string "your speed when used. Maybe you'll\p"
 	.string "use it better than me…\p"
@@ -2577,6 +2581,6 @@ Route104_Text_WallyPostTrailblaze::
 	.string "harder now…$"
 
 Route104_Text_WallyPostEncounter::
-# 1227 "data/maps/Route104/scripts.pory"
+# 1229 "data/maps/Route104/scripts.pory"
 	.string "I'm going to have to train even\n"
 	.string "harder now…$"

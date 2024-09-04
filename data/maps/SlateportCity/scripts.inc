@@ -2781,56 +2781,148 @@ SlateportCity_Eventscript_Cook2::
 # 1393 "data/maps/SlateportCity/scripts.pory"
 	waitmessage
 # 1394 "data/maps/SlateportCity/scripts.pory"
-	pokemart SlateportCity_Pokemart_Cook2
-# 1395 "data/maps/SlateportCity/scripts.pory"
-	msgbox SlateportBerrySellerOutro
-# 1396 "data/maps/SlateportCity/scripts.pory"
-	release
-	end
-
-
+	goto_if_set FLAG_BADGE04_GET, SlateportCity_Eventscript_Cook2_2
 # 1400 "data/maps/SlateportCity/scripts.pory"
-
-# 1401 "data/maps/SlateportCity/scripts.pory"
-
-# 1402 "data/maps/SlateportCity/scripts.pory"
-.align 2
-# 1403 "data/maps/SlateportCity/scripts.pory"
-SlateportCity_Pokemart_Cook2::
-# 1404 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_ORAN_BERRY
-# 1405 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_SITRUS_BERRY
-# 1406 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_PECHA_BERRY
+	goto_if_set FLAG_BADGE03_GET, SlateportCity_Eventscript_Cook2_3
 # 1407 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_CHERI_BERRY
-# 1408 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_CHESTO_BERRY
+	pokemart SlateportCity_Pokemart_Cook2
 # 1409 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_RAWST_BERRY
+	msgbox SlateportBerrySellerOutro
 # 1410 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_ASPEAR_BERRY
-# 1411 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_PERSIM_BERRY
-# 1412 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_TART_APPLE
-# 1413 "data/maps/SlateportCity/scripts.pory"
-	.2byte ITEM_SWEET_APPLE
-# 1414 "data/maps/SlateportCity/scripts.pory"
-	.2byte ITEM_SYRUPY_APPLE
-# 1415 "data/maps/SlateportCity/scripts.pory"
-    .2byte ITEM_NONE
-# 1416 "data/maps/SlateportCity/scripts.pory"
 	release
-# 1417 "data/maps/SlateportCity/scripts.pory"
 	end
+
+SlateportCity_Eventscript_Cook2_2:
+# 1395 "data/maps/SlateportCity/scripts.pory"
+	pokemart SlateportCity_Pokemart_Cook2_Badge4
+# 1396 "data/maps/SlateportCity/scripts.pory"
+	msgbox SlateportBerrySellerOutro
+# 1397 "data/maps/SlateportCity/scripts.pory"
+	release
+	end
+
+SlateportCity_Eventscript_Cook2_3:
+# 1401 "data/maps/SlateportCity/scripts.pory"
+	pokemart SlateportCity_Pokemart_Cook2_Badge3
+# 1402 "data/maps/SlateportCity/scripts.pory"
+	msgbox SlateportBerrySellerOutro
+# 1403 "data/maps/SlateportCity/scripts.pory"
+	release
+	end
+
+
+	.align 2
+# 1414 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Pokemart_Cook2:
+# 1415 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_ORAN_BERRY
+# 1416 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SITRUS_BERRY
+# 1417 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PECHA_BERRY
+# 1418 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_CHERI_BERRY
+# 1419 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_CHESTO_BERRY
+# 1420 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_RAWST_BERRY
+# 1421 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_ASPEAR_BERRY
+# 1422 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PERSIM_BERRY
+# 1423 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_LEEK
+# 1424 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_TART_APPLE
+# 1425 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SWEET_APPLE
+# 1426 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+	.2byte ITEM_NONE
+
+	.align 2
+# 1429 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Pokemart_Cook2_Badge3:
+# 1430 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_ORAN_BERRY
+# 1431 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SITRUS_BERRY
+# 1432 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PECHA_BERRY
+# 1433 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_CHERI_BERRY
+# 1434 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_CHESTO_BERRY
+# 1435 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_RAWST_BERRY
+# 1436 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_ASPEAR_BERRY
+# 1437 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PERSIM_BERRY
+# 1438 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_LEEK
+# 1439 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_TART_APPLE
+# 1440 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SWEET_APPLE
+# 1441 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 1442 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_RED_NECTAR
+# 1443 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PURPLE_NECTAR
+# 1444 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_YELLOW_NECTAR
+# 1445 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PINK_NECTAR
+	.2byte ITEM_NONE
+
+	.align 2
+# 1448 "data/maps/SlateportCity/scripts.pory"
+SlateportCity_Pokemart_Cook2_Badge4:
+# 1449 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_ORAN_BERRY
+# 1450 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SITRUS_BERRY
+# 1451 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PECHA_BERRY
+# 1452 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_CHERI_BERRY
+# 1453 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_CHESTO_BERRY
+# 1454 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_RAWST_BERRY
+# 1455 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_ASPEAR_BERRY
+# 1456 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PERSIM_BERRY
+# 1457 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_LEEK
+# 1458 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_TART_APPLE
+# 1459 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SWEET_APPLE
+# 1460 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 1461 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_RED_NECTAR
+# 1462 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PURPLE_NECTAR
+# 1463 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_YELLOW_NECTAR
+# 1464 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_PINK_NECTAR
+# 1465 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_GALARICA_CUFF
+# 1466 "data/maps/SlateportCity/scripts.pory"
+	.2byte ITEM_GALARICA_WREATH
+	.2byte ITEM_NONE
 
 SlateportBerrySellerIntro::
-# 1420 "data/maps/SlateportCity/scripts.pory"
-	.string "Welcome! Fresh fruit just for you, and at\n"
+# 1470 "data/maps/SlateportCity/scripts.pory"
+	.string "Welcome! Fresh produce just for you, and at\n"
 	.string "a low, low price!\n$"
 
 SlateportBerrySellerOutro::
-# 1425 "data/maps/SlateportCity/scripts.pory"
+# 1475 "data/maps/SlateportCity/scripts.pory"
 	.string "Please come again!\n$"

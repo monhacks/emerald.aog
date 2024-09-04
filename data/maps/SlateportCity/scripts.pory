@@ -1391,34 +1391,84 @@ script SlateportCity_Eventscript_Cook2 {
     faceplayer
     message(SlateportBerrySellerIntro)
     waitmessage
-    pokemart(SlateportCity_Pokemart_Cook2)
+	if(flag(FLAG_BADGE04_GET)){
+		pokemart(SlateportCity_Pokemart_Cook2_Badge4)
+		msgbox(SlateportBerrySellerOutro)
+		release
+		end
+	}
+	elif(flag(FLAG_BADGE03_GET)){
+		pokemart(SlateportCity_Pokemart_Cook2_Badge3)
+		msgbox(SlateportBerrySellerOutro)
+		release
+		end
+	}
+	else{
+		pokemart(SlateportCity_Pokemart_Cook2)
+	}
     msgbox(SlateportBerrySellerOutro)
     release
     end
 }
 
-raw`
+mart SlateportCity_Pokemart_Cook2{
+    ITEM_ORAN_BERRY
+    ITEM_SITRUS_BERRY
+    ITEM_PECHA_BERRY
+    ITEM_CHERI_BERRY
+    ITEM_CHESTO_BERRY
+    ITEM_RAWST_BERRY
+    ITEM_ASPEAR_BERRY
+    ITEM_PERSIM_BERRY
+	ITEM_LEEK
+    ITEM_TART_APPLE
+	ITEM_SWEET_APPLE
+	ITEM_SYRUPY_APPLE
+}
 
-.align 2
-SlateportCity_Pokemart_Cook2::
-    .2byte ITEM_ORAN_BERRY
-    .2byte ITEM_SITRUS_BERRY
-    .2byte ITEM_PECHA_BERRY
-    .2byte ITEM_CHERI_BERRY
-    .2byte ITEM_CHESTO_BERRY
-    .2byte ITEM_RAWST_BERRY
-    .2byte ITEM_ASPEAR_BERRY
-    .2byte ITEM_PERSIM_BERRY
-    .2byte ITEM_TART_APPLE
-	.2byte ITEM_SWEET_APPLE
-	.2byte ITEM_SYRUPY_APPLE
-    .2byte ITEM_NONE
-	release
-	end
-`
+mart SlateportCity_Pokemart_Cook2_Badge3{
+	ITEM_ORAN_BERRY
+    ITEM_SITRUS_BERRY
+    ITEM_PECHA_BERRY
+    ITEM_CHERI_BERRY
+    ITEM_CHESTO_BERRY
+    ITEM_RAWST_BERRY
+    ITEM_ASPEAR_BERRY
+    ITEM_PERSIM_BERRY
+	ITEM_LEEK
+    ITEM_TART_APPLE
+	ITEM_SWEET_APPLE
+	ITEM_SYRUPY_APPLE
+	ITEM_RED_NECTAR
+	ITEM_PURPLE_NECTAR
+	ITEM_YELLOW_NECTAR
+	ITEM_PINK_NECTAR
+}
+
+mart SlateportCity_Pokemart_Cook2_Badge4{
+	ITEM_ORAN_BERRY
+    ITEM_SITRUS_BERRY
+    ITEM_PECHA_BERRY
+    ITEM_CHERI_BERRY
+    ITEM_CHESTO_BERRY
+    ITEM_RAWST_BERRY
+    ITEM_ASPEAR_BERRY
+    ITEM_PERSIM_BERRY
+	ITEM_LEEK
+    ITEM_TART_APPLE
+	ITEM_SWEET_APPLE
+	ITEM_SYRUPY_APPLE
+	ITEM_RED_NECTAR
+	ITEM_PURPLE_NECTAR
+	ITEM_YELLOW_NECTAR
+	ITEM_PINK_NECTAR
+	ITEM_GALARICA_CUFF
+	ITEM_GALARICA_WREATH
+}
+
 
 text SlateportBerrySellerIntro{
-    "Welcome! Fresh fruit just for you, and at\n"
+    "Welcome! Fresh produce just for you, and at\n"
     "a low, low price!\n"
 }
 
