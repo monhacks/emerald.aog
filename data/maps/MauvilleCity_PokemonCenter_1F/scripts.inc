@@ -147,36 +147,44 @@ Fang_Tutor::
 # 76 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	waitmessage
 # 77 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	goto_if_set FLAG_BADGE05_GET, Fang_Tutor_2
+# 81 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	call MoveTutor_EventScript_Fang_Tutor
-# 78 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+Fang_Tutor_1:
+# 83 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	msgbox MoveTutor_Text_Fang_Tutor_Outro2
-# 79 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 84 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	release
 	return
 
+Fang_Tutor_2:
+# 78 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	call MoveTutor_EventScript_Fang_Tutor_Badge5
+	goto Fang_Tutor_1
+
 
 MoveTutor_EventScript_Fang_Tutor_Exit::
-# 85 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 90 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	msgbox MoveTutor_Text_Fang_Tutor_Outro, MSGBOX_DEFAULT
-# 86 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 91 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 MoveTutor_Text_Fang_Tutor_Intro::
-# 90 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 95 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Ah, hello! I'm what people call the Fang\n"
 	.string "Tutor. I can teach your POKéMON various\p"
 	.string "biting moves.$"
 
 MoveTutor_Text_Fang_Tutor_select::
-# 96 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 101 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "What move would you like to learn?$"
 
 MoveTutor_Text_Fang_Tutor_Outro::
-# 100 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 105 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Perhaps another time, then?$"
 
 MoveTutor_Text_Fang_Tutor_Outro2::
-# 104 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 109 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Come back anytime!$"

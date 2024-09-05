@@ -66,6 +66,8 @@
 #define MAP_RUSTURF_DEPTHS       (57 | (0 << 8))
 #define MAP_DEWFORD_OUTSKIRTS    (58 | (0 << 8))
 #define MAP_VERDANTURF_SANCTUARY (59 | (0 << 8))
+#define MAP_DUMMY                (60 | (0 << 8))
+#define MAP_DUMMY1               (61 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
@@ -413,6 +415,8 @@
 #define MAP_ROUGH_CAVE                               (115 | (24 << 8))
 #define MAP_ROUGH_CAVE_B1                            (116 | (24 << 8))
 #define MAP_ROUGH_CAVE_B2                            (117 | (24 << 8))
+#define MAP_DEWFORD_MANSION2                         (118 | (24 << 8))
+#define MAP_DEWFORD_MANSION3                         (119 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (25 << 8))

@@ -302,6 +302,41 @@ script MoveTutor_EventScript_Fang_Tutor {
     }
 }
 
+script MoveTutor_EventScript_Fang_Tutor_Badge5 {
+    lock
+    faceplayer
+    msgbox (MoveTutor_Text_Fang_Tutor_select, MSGBOX_DEFAULT)
+    dynmultipush("FIRE FANG", 0)
+    dynmultipush("ICE FANG", 1)
+    dynmultipush("THUNDER FANG", 2)
+    dynmultipush("POISON FANG", 3)
+	dynmultipush("CRUNCH", 4)
+	dynmultipush("PSYCHIC FANGS", 5)
+    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+    switch (var(VAR_RESULT)) {
+        case 0:
+            setvar(VAR_0x8005, MOVE_FIRE_FANG)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 1:
+            setvar(VAR_0x8005, MOVE_ICE_FANG)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 2:
+            setvar(VAR_0x8005, MOVE_THUNDER_FANG)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 3:
+            setvar(VAR_0x8005, MOVE_POISON_FANG)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+		case 4:
+            setvar(VAR_0x8005, MOVE_CRUNCH)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+		case 5:
+            setvar(VAR_0x8005, MOVE_PSYCHIC_FANGS)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case MULTI_B_PRESSED:
+            call(MoveTutor_EventScript_Fang_Tutor_Exit)
+    }
+}
+
 script MoveTutor_EventScript_HotSpring_Tutor {
     lock
     faceplayer
@@ -340,7 +375,7 @@ script MoveTutor_EventScript_HotSpring_Tutor {
 script MoveTutor_EventScript_Slash_Tutor {
     lock
     faceplayer
-    msgbox (MoveTutor_Text_HotSpring_Tutor_Select, MSGBOX_DEFAULT)
+    msgbox (MoveTutor_Text_Slash_Tutor_Select, MSGBOX_DEFAULT)
     dynmultipush("SLASH", 0)
     dynmultipush("NIGHT SLASH", 1)
     dynmultipush("PSYCHO CUT", 2)
@@ -366,6 +401,76 @@ script MoveTutor_EventScript_Slash_Tutor {
             call(MoveTutor_EventScript_OpenPartyMenu)
 		case 5:
             setvar(VAR_0x8005, MOVE_X_SCISSOR)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case MULTI_B_PRESSED:
+            call(MoveTutor_EventScript_Slash_Tutor_Exit)
+    }
+}
+
+script MoveTutor_EventScript_Dewford_Tutor1 {
+    lock
+    faceplayer
+    msgbox (MoveTutor_Text_HotSpring_Tutor_Select, MSGBOX_DEFAULT)
+    dynmultipush("LOW KICK", 0)
+    dynmultipush("SEISMIC TOSS", 1)
+    dynmultipush("FOCUS ENERGY", 2)
+    dynmultipush("MEGA PUNCH", 3)
+    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+    switch (var(VAR_RESULT)) {
+        case 0:
+            setvar(VAR_0x8005, MOVE_LOW_KICK)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 1:
+            setvar(VAR_0x8005, MOVE_SEISMIC_TOSS)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 2:
+            setvar(VAR_0x8005, MOVE_FOCUS_ENERGY)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 3:
+            setvar(VAR_0x8005, MOVE_MEGA_PUNCH)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case MULTI_B_PRESSED:
+            call(MoveTutor_EventScript_Slash_Tutor_Exit)
+    }
+}
+
+script MoveTutor_EventScript_Dewford_Tutor2 {
+    lock
+    faceplayer
+    msgbox (MoveTutor_Text_HotSpring_Tutor_Select, MSGBOX_DEFAULT)
+    dynmultipush("LOW KICK", 0)
+    dynmultipush("SEISMIC TOSS", 1)
+    dynmultipush("FOCUS ENERGY", 2)
+    dynmultipush("MEGA PUNCH", 3)
+	dynmultipush("PAYBACK", 4)
+	dynmultipush("SUBMISSION", 5)
+	dynmultipush("BODY SLAM", 6)
+	dynmultipush("MEGA KICK", 7)
+    dynmultistack(0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE)
+    switch (var(VAR_RESULT)) {
+        case 0:
+            setvar(VAR_0x8005, MOVE_LOW_KICK)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 1:
+            setvar(VAR_0x8005, MOVE_SEISMIC_TOSS)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 2:
+            setvar(VAR_0x8005, MOVE_FOCUS_ENERGY)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 3:
+            setvar(VAR_0x8005, MOVE_MEGA_PUNCH)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+		case 4:
+            setvar(VAR_0x8005, MOVE_PAYBACK)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 5:
+            setvar(VAR_0x8005, MOVE_SUBMISSION)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 6:
+            setvar(VAR_0x8005, MOVE_BODY_SLAM)
+            call(MoveTutor_EventScript_OpenPartyMenu)
+        case 7:
+            setvar(VAR_0x8005, MOVE_MEGA_KICK)
             call(MoveTutor_EventScript_OpenPartyMenu)
         case MULTI_B_PRESSED:
             call(MoveTutor_EventScript_Slash_Tutor_Exit)

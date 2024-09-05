@@ -1098,3 +1098,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/RoughCaveB1/scripts.inc"
 
 	.include "data/maps/RoughCaveB2/scripts.inc"
+
+	.include "data/maps/DewfordMansion2/scripts.inc"
+
+	.include "data/maps/DewfordMansion3/scripts.inc"
+
+	.include "data/maps/dummy/scripts.inc"
+
+	.include "data/maps/dummy1/scripts.inc"

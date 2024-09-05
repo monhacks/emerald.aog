@@ -2,7 +2,7 @@
   "id": "MAP_DEWFORD_MASION_ROOM",
   "name": "DewfordMasionRoom",
   "layout": "LAYOUT_DEWFORD_MASION_ROOM",
-  "music": "MUS_MT_PYRE_EXTERIOR",
+  "music": "MUS_MT_PYRE",
   "region_map_section": "MAPSEC_DEWFORD_MANOR",
   "requires_flash": false,
   "weather": "WEATHER_SHADE",
@@ -14,7 +14,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PHOEBE",
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DewfordMasionRoom_Eventscript_PhoebeLeave",
+      "flag": "FLAG_HIDE_PHOEBE_MANOR"
+    }
   ],
   "warp_events": [
     {
@@ -36,14 +48,6 @@
 
   ],
   "bg_events": [
-    {
-      "type": "hidden_item",
-      "x": 1,
-      "y": 3,
-      "elevation": 0,
-      "item": "ITEM_REAPER_CLOTH",
-      "flag": "FLAG_HIDDEN_ITEM_DEWFORD_MANSION_REAPER_CLOTH"
-    },
     {
       "type": "hidden_item",
       "x": 8,

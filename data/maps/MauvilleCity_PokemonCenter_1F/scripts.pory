@@ -74,7 +74,12 @@ script Fang_Tutor {
     lock
     msgbox (MoveTutor_Text_Fang_Tutor_Intro, MSGBOX_DEFAULT)
 	waitmessage
-    call(MoveTutor_EventScript_Fang_Tutor)
+	if(flag(FLAG_BADGE05_GET)){
+		call(MoveTutor_EventScript_Fang_Tutor_Badge5)
+		}
+	else{
+		call(MoveTutor_EventScript_Fang_Tutor)
+	}
 	msgbox(MoveTutor_Text_Fang_Tutor_Outro2)
 	release
 }

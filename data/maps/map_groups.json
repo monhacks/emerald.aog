@@ -95,7 +95,9 @@
     "Underwater_Route125",
     "RusturfDepths",
     "DewfordOutskirts",
-    "VerdanturfSanctuary"
+    "VerdanturfSanctuary",
+    "dummy",
+    "dummy1"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -442,7 +444,9 @@
     "HotSpringsCave",
     "RoughCave",
     "RoughCaveB1",
-    "RoughCaveB2"
+    "RoughCaveB2",
+    "DewfordMansion2",
+    "DewfordMansion3"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

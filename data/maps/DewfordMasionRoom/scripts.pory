@@ -1,0 +1,46 @@
+mapscripts DewfordMasionRoom_MapScripts {
+    
+}
+
+script DewfordMasionRoom_Eventscript_PhoebeLeave {
+    lock
+    msgbox(PhoebeTalkingToSelf,MSGBOX_AUTOCLOSE)
+    waitmessage
+    applymovement(1, PhoebeExclamation)
+    playse(SE_PIN)
+    waitmovement(0)
+    delay(10)
+    faceplayer
+    msgbox(PhoebeTalkingToPlayer,MSGBOX_AUTOCLOSE)
+    waitmessage
+    setflag(FLAG_HIDE_PHOEBE_MANOR)
+    delay(30)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    delay(20)
+    fadescreen(FADE_FROM_BLACK)
+    release
+    end
+}
+
+
+text PhoebeTalkingToSelf {
+    "Come on, PHOEBE. You used to be a\n"
+    "member of the ELITE FOUR.\p"
+    "Being a GYM LEADER shouldn't be a\n"
+    "huge deal…"
+}
+
+text PhoebeTalkingToPlayer {
+    "Oh, Hello! I didn't think anyone else\n"
+    "would be here.\p"
+    "… … …\p"
+    "Oh they're waiting for me at the GYM?\n"
+    "Oops! I guess I didn't realize how long \l"
+    "I was gone for. I'll head there right\l"
+    "away!"
+}
+
+movement PhoebeExclamation {
+    emote_exclamation_mark
+}

@@ -614,7 +614,7 @@ MoveTutor_EventScript_Fang_Tutor_6:
 	return
 
 
-MoveTutor_EventScript_HotSpring_Tutor::
+MoveTutor_EventScript_Fang_Tutor_Badge5::
 # 306 "data/scripts/move_tutors.pory"
 	lock
 # 307 "data/scripts/move_tutors.pory"
@@ -622,168 +622,429 @@ MoveTutor_EventScript_HotSpring_Tutor::
 # 308 "data/scripts/move_tutors.pory"
 	msgbox MoveTutor_Text_Fang_Tutor_select, MSGBOX_DEFAULT
 # 309 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_0, 0
+	dynmultipush MoveTutor_EventScript_Fang_Tutor_Text_0, 0
 # 310 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_1, 1
+	dynmultipush MoveTutor_EventScript_Fang_Tutor_Text_1, 1
 # 311 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_2, 2
+	dynmultipush MoveTutor_EventScript_Fang_Tutor_Text_2, 2
 # 312 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_3, 3
+	dynmultipush MoveTutor_EventScript_Fang_Tutor_Text_3, 3
 # 313 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_4, 4
+	dynmultipush MoveTutor_EventScript_Fang_Tutor_Badge5_Text_0, 4
 # 314 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_5, 5
+	dynmultipush MoveTutor_EventScript_Fang_Tutor_Badge5_Text_1, 5
 # 315 "data/scripts/move_tutors.pory"
 	dynmultistack 0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE
 # 316 "data/scripts/move_tutors.pory"
 	switch VAR_RESULT
 # 317 "data/scripts/move_tutors.pory"
-	case 0, MoveTutor_EventScript_HotSpring_Tutor_2
+	case 0, MoveTutor_EventScript_Fang_Tutor_Badge5_2
 # 320 "data/scripts/move_tutors.pory"
-	case 1, MoveTutor_EventScript_HotSpring_Tutor_3
+	case 1, MoveTutor_EventScript_Fang_Tutor_Badge5_3
 # 323 "data/scripts/move_tutors.pory"
-	case 2, MoveTutor_EventScript_HotSpring_Tutor_4
+	case 2, MoveTutor_EventScript_Fang_Tutor_Badge5_4
 # 326 "data/scripts/move_tutors.pory"
-	case 3, MoveTutor_EventScript_HotSpring_Tutor_5
+	case 3, MoveTutor_EventScript_Fang_Tutor_Badge5_5
 # 329 "data/scripts/move_tutors.pory"
-	case 4, MoveTutor_EventScript_HotSpring_Tutor_6
+	case 4, MoveTutor_EventScript_Fang_Tutor_Badge5_6
 # 332 "data/scripts/move_tutors.pory"
-	case 5, MoveTutor_EventScript_HotSpring_Tutor_7
+	case 5, MoveTutor_EventScript_Fang_Tutor_Badge5_7
 # 335 "data/scripts/move_tutors.pory"
-	case MULTI_B_PRESSED, MoveTutor_EventScript_HotSpring_Tutor_8
+	case MULTI_B_PRESSED, MoveTutor_EventScript_Fang_Tutor_Badge5_8
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_2:
+MoveTutor_EventScript_Fang_Tutor_Badge5_2:
 # 318 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_TEMPER_FLARE
+	setvar VAR_0x8005, MOVE_FIRE_FANG
 # 319 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_3:
+MoveTutor_EventScript_Fang_Tutor_Badge5_3:
 # 321 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_ICY_WIND
+	setvar VAR_0x8005, MOVE_ICE_FANG
 # 322 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_4:
+MoveTutor_EventScript_Fang_Tutor_Badge5_4:
 # 324 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_SCORCHING_SANDS
+	setvar VAR_0x8005, MOVE_THUNDER_FANG
 # 325 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_5:
+MoveTutor_EventScript_Fang_Tutor_Badge5_5:
 # 327 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_FLASH_CANNON
+	setvar VAR_0x8005, MOVE_POISON_FANG
 # 328 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_6:
+MoveTutor_EventScript_Fang_Tutor_Badge5_6:
 # 330 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_BURNING_JEALOUSY
+	setvar VAR_0x8005, MOVE_CRUNCH
 # 331 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_7:
+MoveTutor_EventScript_Fang_Tutor_Badge5_7:
 # 333 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_HEX
+	setvar VAR_0x8005, MOVE_PSYCHIC_FANGS
 # 334 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_HotSpring_Tutor_8:
+MoveTutor_EventScript_Fang_Tutor_Badge5_8:
 # 336 "data/scripts/move_tutors.pory"
-	call MoveTutor_EventScript_HotSpring_Tutor_Exit
+	call MoveTutor_EventScript_Fang_Tutor_Exit
 	return
 
 
-MoveTutor_EventScript_Slash_Tutor::
+MoveTutor_EventScript_HotSpring_Tutor::
 # 341 "data/scripts/move_tutors.pory"
 	lock
 # 342 "data/scripts/move_tutors.pory"
 	faceplayer
 # 343 "data/scripts/move_tutors.pory"
-	msgbox MoveTutor_Text_HotSpring_Tutor_Select, MSGBOX_DEFAULT
+	msgbox MoveTutor_Text_Fang_Tutor_select, MSGBOX_DEFAULT
 # 344 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_0, 0
+	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_0, 0
 # 345 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_1, 1
+	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_1, 1
 # 346 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_2, 2
+	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_2, 2
 # 347 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_3, 3
+	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_3, 3
 # 348 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_4, 4
+	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_4, 4
 # 349 "data/scripts/move_tutors.pory"
-	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_5, 5
+	dynmultipush MoveTutor_EventScript_HotSpring_Tutor_Text_5, 5
 # 350 "data/scripts/move_tutors.pory"
 	dynmultistack 0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE
 # 351 "data/scripts/move_tutors.pory"
 	switch VAR_RESULT
 # 352 "data/scripts/move_tutors.pory"
-	case 0, MoveTutor_EventScript_Slash_Tutor_2
+	case 0, MoveTutor_EventScript_HotSpring_Tutor_2
 # 355 "data/scripts/move_tutors.pory"
-	case 1, MoveTutor_EventScript_Slash_Tutor_3
+	case 1, MoveTutor_EventScript_HotSpring_Tutor_3
 # 358 "data/scripts/move_tutors.pory"
-	case 2, MoveTutor_EventScript_Slash_Tutor_4
+	case 2, MoveTutor_EventScript_HotSpring_Tutor_4
 # 361 "data/scripts/move_tutors.pory"
-	case 3, MoveTutor_EventScript_Slash_Tutor_5
+	case 3, MoveTutor_EventScript_HotSpring_Tutor_5
 # 364 "data/scripts/move_tutors.pory"
-	case 4, MoveTutor_EventScript_Slash_Tutor_6
+	case 4, MoveTutor_EventScript_HotSpring_Tutor_6
 # 367 "data/scripts/move_tutors.pory"
-	case 5, MoveTutor_EventScript_Slash_Tutor_7
+	case 5, MoveTutor_EventScript_HotSpring_Tutor_7
 # 370 "data/scripts/move_tutors.pory"
-	case MULTI_B_PRESSED, MoveTutor_EventScript_Slash_Tutor_8
+	case MULTI_B_PRESSED, MoveTutor_EventScript_HotSpring_Tutor_8
 	return
 
-MoveTutor_EventScript_Slash_Tutor_2:
+MoveTutor_EventScript_HotSpring_Tutor_2:
 # 353 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_SLASH
+	setvar VAR_0x8005, MOVE_TEMPER_FLARE
 # 354 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_Slash_Tutor_3:
+MoveTutor_EventScript_HotSpring_Tutor_3:
 # 356 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_NIGHT_SLASH
+	setvar VAR_0x8005, MOVE_ICY_WIND
 # 357 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_Slash_Tutor_4:
+MoveTutor_EventScript_HotSpring_Tutor_4:
 # 359 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_PSYCHO_CUT
+	setvar VAR_0x8005, MOVE_SCORCHING_SANDS
 # 360 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_Slash_Tutor_5:
+MoveTutor_EventScript_HotSpring_Tutor_5:
 # 362 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_RAZOR_SHELL
+	setvar VAR_0x8005, MOVE_FLASH_CANNON
 # 363 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_Slash_Tutor_6:
+MoveTutor_EventScript_HotSpring_Tutor_6:
 # 365 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_CROSS_POISON
+	setvar VAR_0x8005, MOVE_BURNING_JEALOUSY
 # 366 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_Slash_Tutor_7:
+MoveTutor_EventScript_HotSpring_Tutor_7:
 # 368 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_X_SCISSOR
+	setvar VAR_0x8005, MOVE_HEX
 # 369 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
 
-MoveTutor_EventScript_Slash_Tutor_8:
+MoveTutor_EventScript_HotSpring_Tutor_8:
 # 371 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_HotSpring_Tutor_Exit
+	return
+
+
+MoveTutor_EventScript_Slash_Tutor::
+# 376 "data/scripts/move_tutors.pory"
+	lock
+# 377 "data/scripts/move_tutors.pory"
+	faceplayer
+# 378 "data/scripts/move_tutors.pory"
+	msgbox MoveTutor_Text_Slash_Tutor_Select, MSGBOX_DEFAULT
+# 379 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_0, 0
+# 380 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_1, 1
+# 381 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_2, 2
+# 382 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_3, 3
+# 383 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_4, 4
+# 384 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Slash_Tutor_Text_5, 5
+# 385 "data/scripts/move_tutors.pory"
+	dynmultistack 0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE
+# 386 "data/scripts/move_tutors.pory"
+	switch VAR_RESULT
+# 387 "data/scripts/move_tutors.pory"
+	case 0, MoveTutor_EventScript_Slash_Tutor_2
+# 390 "data/scripts/move_tutors.pory"
+	case 1, MoveTutor_EventScript_Slash_Tutor_3
+# 393 "data/scripts/move_tutors.pory"
+	case 2, MoveTutor_EventScript_Slash_Tutor_4
+# 396 "data/scripts/move_tutors.pory"
+	case 3, MoveTutor_EventScript_Slash_Tutor_5
+# 399 "data/scripts/move_tutors.pory"
+	case 4, MoveTutor_EventScript_Slash_Tutor_6
+# 402 "data/scripts/move_tutors.pory"
+	case 5, MoveTutor_EventScript_Slash_Tutor_7
+# 405 "data/scripts/move_tutors.pory"
+	case MULTI_B_PRESSED, MoveTutor_EventScript_Slash_Tutor_8
+	return
+
+MoveTutor_EventScript_Slash_Tutor_2:
+# 388 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_SLASH
+# 389 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Slash_Tutor_3:
+# 391 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_NIGHT_SLASH
+# 392 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Slash_Tutor_4:
+# 394 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_PSYCHO_CUT
+# 395 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Slash_Tutor_5:
+# 397 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_RAZOR_SHELL
+# 398 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Slash_Tutor_6:
+# 400 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_CROSS_POISON
+# 401 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Slash_Tutor_7:
+# 403 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_X_SCISSOR
+# 404 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Slash_Tutor_8:
+# 406 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_Slash_Tutor_Exit
+	return
+
+
+MoveTutor_EventScript_Dewford_Tutor1::
+# 411 "data/scripts/move_tutors.pory"
+	lock
+# 412 "data/scripts/move_tutors.pory"
+	faceplayer
+# 413 "data/scripts/move_tutors.pory"
+	msgbox MoveTutor_Text_HotSpring_Tutor_Select, MSGBOX_DEFAULT
+# 414 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_0, 0
+# 415 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_1, 1
+# 416 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_2, 2
+# 417 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_3, 3
+# 418 "data/scripts/move_tutors.pory"
+	dynmultistack 0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE
+# 419 "data/scripts/move_tutors.pory"
+	switch VAR_RESULT
+# 420 "data/scripts/move_tutors.pory"
+	case 0, MoveTutor_EventScript_Dewford_Tutor1_2
+# 423 "data/scripts/move_tutors.pory"
+	case 1, MoveTutor_EventScript_Dewford_Tutor1_3
+# 426 "data/scripts/move_tutors.pory"
+	case 2, MoveTutor_EventScript_Dewford_Tutor1_4
+# 429 "data/scripts/move_tutors.pory"
+	case 3, MoveTutor_EventScript_Dewford_Tutor1_5
+# 432 "data/scripts/move_tutors.pory"
+	case MULTI_B_PRESSED, MoveTutor_EventScript_Dewford_Tutor1_6
+	return
+
+MoveTutor_EventScript_Dewford_Tutor1_2:
+# 421 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_LOW_KICK
+# 422 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor1_3:
+# 424 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_SEISMIC_TOSS
+# 425 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor1_4:
+# 427 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_FOCUS_ENERGY
+# 428 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor1_5:
+# 430 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_MEGA_PUNCH
+# 431 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor1_6:
+# 433 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_Slash_Tutor_Exit
+	return
+
+
+MoveTutor_EventScript_Dewford_Tutor2::
+# 438 "data/scripts/move_tutors.pory"
+	lock
+# 439 "data/scripts/move_tutors.pory"
+	faceplayer
+# 440 "data/scripts/move_tutors.pory"
+	msgbox MoveTutor_Text_HotSpring_Tutor_Select, MSGBOX_DEFAULT
+# 441 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_0, 0
+# 442 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_1, 1
+# 443 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_2, 2
+# 444 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor1_Text_3, 3
+# 445 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor2_Text_0, 4
+# 446 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor2_Text_1, 5
+# 447 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor2_Text_2, 6
+# 448 "data/scripts/move_tutors.pory"
+	dynmultipush MoveTutor_EventScript_Dewford_Tutor2_Text_3, 7
+# 449 "data/scripts/move_tutors.pory"
+	dynmultistack 0, 0, FALSE, 5, FALSE, 0, DYN_MULTICHOICE_CB_NONE
+# 450 "data/scripts/move_tutors.pory"
+	switch VAR_RESULT
+# 451 "data/scripts/move_tutors.pory"
+	case 0, MoveTutor_EventScript_Dewford_Tutor2_2
+# 454 "data/scripts/move_tutors.pory"
+	case 1, MoveTutor_EventScript_Dewford_Tutor2_3
+# 457 "data/scripts/move_tutors.pory"
+	case 2, MoveTutor_EventScript_Dewford_Tutor2_4
+# 460 "data/scripts/move_tutors.pory"
+	case 3, MoveTutor_EventScript_Dewford_Tutor2_5
+# 463 "data/scripts/move_tutors.pory"
+	case 4, MoveTutor_EventScript_Dewford_Tutor2_6
+# 466 "data/scripts/move_tutors.pory"
+	case 5, MoveTutor_EventScript_Dewford_Tutor2_7
+# 469 "data/scripts/move_tutors.pory"
+	case 6, MoveTutor_EventScript_Dewford_Tutor2_8
+# 472 "data/scripts/move_tutors.pory"
+	case 7, MoveTutor_EventScript_Dewford_Tutor2_9
+# 475 "data/scripts/move_tutors.pory"
+	case MULTI_B_PRESSED, MoveTutor_EventScript_Dewford_Tutor2_10
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_2:
+# 452 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_LOW_KICK
+# 453 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_3:
+# 455 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_SEISMIC_TOSS
+# 456 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_4:
+# 458 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_FOCUS_ENERGY
+# 459 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_5:
+# 461 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_MEGA_PUNCH
+# 462 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_6:
+# 464 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_PAYBACK
+# 465 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_7:
+# 467 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_SUBMISSION
+# 468 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_8:
+# 470 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_BODY_SLAM
+# 471 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_9:
+# 473 "data/scripts/move_tutors.pory"
+	setvar VAR_0x8005, MOVE_MEGA_KICK
+# 474 "data/scripts/move_tutors.pory"
+	call MoveTutor_EventScript_OpenPartyMenu
+	return
+
+MoveTutor_EventScript_Dewford_Tutor2_10:
+# 476 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_Slash_Tutor_Exit
 	return
 
@@ -804,50 +1065,90 @@ MoveTutor_EventScript_Fang_Tutor_Text_3:
 # 285 "data/scripts/move_tutors.pory"
 	.string "POISON FANG$"
 
+MoveTutor_EventScript_Fang_Tutor_Badge5_Text_0:
+# 313 "data/scripts/move_tutors.pory"
+	.string "CRUNCH$"
+
+MoveTutor_EventScript_Fang_Tutor_Badge5_Text_1:
+# 314 "data/scripts/move_tutors.pory"
+	.string "PSYCHIC FANGS$"
+
 MoveTutor_EventScript_HotSpring_Tutor_Text_0:
-# 309 "data/scripts/move_tutors.pory"
+# 344 "data/scripts/move_tutors.pory"
 	.string "TEMPER FLARE$"
 
 MoveTutor_EventScript_HotSpring_Tutor_Text_1:
-# 310 "data/scripts/move_tutors.pory"
+# 345 "data/scripts/move_tutors.pory"
 	.string "ICY WIND$"
 
 MoveTutor_EventScript_HotSpring_Tutor_Text_2:
-# 311 "data/scripts/move_tutors.pory"
+# 346 "data/scripts/move_tutors.pory"
 	.string "SCORCHING SANDS$"
 
 MoveTutor_EventScript_HotSpring_Tutor_Text_3:
-# 312 "data/scripts/move_tutors.pory"
+# 347 "data/scripts/move_tutors.pory"
 	.string "FLASH CANNON$"
 
 MoveTutor_EventScript_HotSpring_Tutor_Text_4:
-# 313 "data/scripts/move_tutors.pory"
+# 348 "data/scripts/move_tutors.pory"
 	.string "BURNING JEALOUSY$"
 
 MoveTutor_EventScript_HotSpring_Tutor_Text_5:
-# 314 "data/scripts/move_tutors.pory"
+# 349 "data/scripts/move_tutors.pory"
 	.string "HEX$"
 
 MoveTutor_EventScript_Slash_Tutor_Text_0:
-# 344 "data/scripts/move_tutors.pory"
+# 379 "data/scripts/move_tutors.pory"
 	.string "SLASH$"
 
 MoveTutor_EventScript_Slash_Tutor_Text_1:
-# 345 "data/scripts/move_tutors.pory"
+# 380 "data/scripts/move_tutors.pory"
 	.string "NIGHT SLASH$"
 
 MoveTutor_EventScript_Slash_Tutor_Text_2:
-# 346 "data/scripts/move_tutors.pory"
+# 381 "data/scripts/move_tutors.pory"
 	.string "PSYCHO CUT$"
 
 MoveTutor_EventScript_Slash_Tutor_Text_3:
-# 347 "data/scripts/move_tutors.pory"
+# 382 "data/scripts/move_tutors.pory"
 	.string "RAZOR SHELL$"
 
 MoveTutor_EventScript_Slash_Tutor_Text_4:
-# 348 "data/scripts/move_tutors.pory"
+# 383 "data/scripts/move_tutors.pory"
 	.string "CROSS POISON$"
 
 MoveTutor_EventScript_Slash_Tutor_Text_5:
-# 349 "data/scripts/move_tutors.pory"
+# 384 "data/scripts/move_tutors.pory"
 	.string "X-SCISSOR$"
+
+MoveTutor_EventScript_Dewford_Tutor1_Text_0:
+# 414 "data/scripts/move_tutors.pory"
+	.string "LOW KICK$"
+
+MoveTutor_EventScript_Dewford_Tutor1_Text_1:
+# 415 "data/scripts/move_tutors.pory"
+	.string "SEISMIC TOSS$"
+
+MoveTutor_EventScript_Dewford_Tutor1_Text_2:
+# 416 "data/scripts/move_tutors.pory"
+	.string "FOCUS ENERGY$"
+
+MoveTutor_EventScript_Dewford_Tutor1_Text_3:
+# 417 "data/scripts/move_tutors.pory"
+	.string "MEGA PUNCH$"
+
+MoveTutor_EventScript_Dewford_Tutor2_Text_0:
+# 445 "data/scripts/move_tutors.pory"
+	.string "PAYBACK$"
+
+MoveTutor_EventScript_Dewford_Tutor2_Text_1:
+# 446 "data/scripts/move_tutors.pory"
+	.string "SUBMISSION$"
+
+MoveTutor_EventScript_Dewford_Tutor2_Text_2:
+# 447 "data/scripts/move_tutors.pory"
+	.string "BODY SLAM$"
+
+MoveTutor_EventScript_Dewford_Tutor2_Text_3:
+# 448 "data/scripts/move_tutors.pory"
+	.string "MEGA KICK$"

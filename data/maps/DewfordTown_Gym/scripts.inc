@@ -378,9 +378,8 @@ DewfordTown_Gym_Text_CristianPostBattle:
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "Ahahaha! I'm PHOEBE,\n"
 	.string "DEWFORD's NEW GYM LEADER.\p"
-	.string "Since BRAWLY got promoted, I was\n"
-	.string "reassigned here, but I don't mind\l"
-	.string "much. It's a nice change of pace.\p"
+	.string "May be new here, but you shouldn't\n"
+	.string "underestimate me!\p"
 	.string "So you wanted to challenge me?\p"
 	.string "Very well. Show me the strength of\n"
 	.string "the bonds with your POKéMON!$"

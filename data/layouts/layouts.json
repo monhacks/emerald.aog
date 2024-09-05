@@ -4540,6 +4540,46 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RoughCaveB2/border.bin",
       "blockdata_filepath": "data/layouts/RoughCaveB2/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_MANSION2",
+      "name": "DewfordMansion2_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_InsideShip",
+      "border_filepath": "data/layouts/DewfordMansion2/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordMansion2/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_MANSION3",
+      "name": "DewfordMansion3_Layout",
+      "width": 17,
+      "height": 21,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordMansion3/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordMansion3/map.bin"
+    },
+    {
+      "id": "LAYOUT_DUMMY",
+      "name": "dummy_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/dummy/border.bin",
+      "blockdata_filepath": "data/layouts/dummy/map.bin"
+    },
+    {
+      "id": "LAYOUT_DUMMY1",
+      "name": "dummy1_Layout",
+      "width": 40,
+      "height": 140,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/dummy1/border.bin",
+      "blockdata_filepath": "data/layouts/dummy1/map.bin"
     }
   ]
 }
