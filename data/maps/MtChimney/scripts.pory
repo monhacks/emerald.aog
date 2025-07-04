@@ -852,7 +852,7 @@ MtChimney_Text_SawyerPostRematch:
 
 script MtChimney_EventScript_Courtney{
     trainerbattle_single(TRAINER_COURTNEY_MT_CHIMNEY, CourtneyMtChimneyIntro, CourtneyMtChimneyOutro)
-    msgbox(CourtneyMtChimneyBeaten, MSGBOX_DEFAULT)
+    msgbox(CourtneyMtChimneyBeaten, MSGBOX_AUTOCLOSE)
     waitmessage
     end
 }
@@ -868,7 +868,7 @@ text CourtneyMtChimneyOutro{
 }
 
 text CourtneyMtChimneyBeaten{
-    "Ahahahaha!\n"
+    "Ahahahaha!\p"
     "You really think you can beat TEAM\n"
     "MAGMA? You're so cute, it's disgusting!"
 }

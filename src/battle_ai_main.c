@@ -965,6 +965,7 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                     break;
                 // Fallthrough
             case ABILITY_WATER_ABSORB:
+            case ABILITY_MAGMA_ARMOR:
             case ABILITY_DRY_SKIN:
                 if (moveType == TYPE_WATER)
                     RETURN_SCORE_MINUS(20);
@@ -2836,6 +2837,12 @@ static s32 AI_DoubleBattle(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 break;  // handled in AI_HPAware
             case ABILITY_MOTOR_DRIVE:
                 if (moveType == TYPE_ELECTRIC && BattlerStatCanRise(battlerAtkPartner, atkPartnerAbility, STAT_SPEED))
+                {
+                    RETURN_SCORE_PLUS(WEAK_EFFECT);
+                }
+                break;
+            case ABILITY_MAGMA_ARMOR:
+                if (moveType == TYPE_WATER && BattlerStatCanRise(battlerAtkPartner, atkPartnerAbility, STAT_DEF))
                 {
                     RETURN_SCORE_PLUS(WEAK_EFFECT);
                 }

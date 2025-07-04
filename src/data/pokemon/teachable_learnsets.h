@@ -37042,6 +37042,7 @@ static const u16 sPyukumukuTeachableLearnset[] = {
     MOVE_THUNDER_PUNCH,
     MOVE_TOXIC,
     MOVE_COUNTER,
+    MOVE_DYNAMIC_PUNCH,
     MOVE_ENDURE,
     MOVE_FIRE_PUNCH,
     MOVE_ICE_PUNCH,

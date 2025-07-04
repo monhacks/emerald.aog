@@ -43,6 +43,11 @@ Route121_SafariZoneEntrance_EventScript_FirstTimeInfo::
 	release
 	end
 
+Route121_SafariZoneEntrance_EventScript_CounterAttendant::
+	msgbox Route121_SafariZoneEntrance_Text_CounterAttendant, MSGBOX_DEFAULT
+	release
+	end
+
 Route121_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 	lockall
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp

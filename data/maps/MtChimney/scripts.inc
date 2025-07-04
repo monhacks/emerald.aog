@@ -1701,7 +1701,7 @@ MtChimney_EventScript_Courtney::
 # 854 "data/maps/MtChimney/scripts.pory"
 	trainerbattle_single TRAINER_COURTNEY_MT_CHIMNEY, CourtneyMtChimneyIntro, CourtneyMtChimneyOutro
 # 855 "data/maps/MtChimney/scripts.pory"
-	msgbox CourtneyMtChimneyBeaten, MSGBOX_DEFAULT
+	msgbox CourtneyMtChimneyBeaten, MSGBOX_AUTOCLOSE
 # 856 "data/maps/MtChimney/scripts.pory"
 	waitmessage
 	end
@@ -1719,6 +1719,6 @@ CourtneyMtChimneyOutro::
 
 CourtneyMtChimneyBeaten::
 # 870 "data/maps/MtChimney/scripts.pory"
-	.string "Ahahahaha!\n"
+	.string "Ahahahaha!\p"
 	.string "You really think you can beat TEAM\n"
 	.string "MAGMA? You're so cute, it's disgusting!$"

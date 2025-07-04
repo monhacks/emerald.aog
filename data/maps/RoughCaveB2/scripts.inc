@@ -6,7 +6,7 @@ RoughCaveB2_EventScript_AnelaceBattle::
 # 6 "data/maps/RoughCaveB2/scripts.pory"
 	trainerbattle_single TRAINER_ANELACE, AnelaceIntro, AnelaceOutro
 # 7 "data/maps/RoughCaveB2/scripts.pory"
-	msgbox AnelaceBeaten, MSGBOX_DEFAULT
+	msgbox AnelaceBeaten, MSGBOX_AUTOCLOSE
 # 8 "data/maps/RoughCaveB2/scripts.pory"
 	waitmessage
 	end

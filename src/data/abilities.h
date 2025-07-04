@@ -317,7 +317,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_MAGMA_ARMOR] =
     {
         .name = _("Magma Armor"),
-        .description = COMPOUND_STRING("Prevents freezing."),
+        .description = COMPOUND_STRING("Water boosts Defense."),
         .aiRating = 1,
         .breakable = TRUE,
     },
@@ -568,7 +568,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_PURE_POWER] =
     {
         .name = _("Pure Power"),
-        .description = COMPOUND_STRING("Raises Attack."),
+        .description = COMPOUND_STRING("Raises Special Attack."),
         .aiRating = 10,
     },
 
@@ -1038,7 +1038,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_TOXIC_BOOST] =
     {
         .name = _("Toxic Boost"),
-        .description = COMPOUND_STRING("Ups Attack if poisoned."),
+        .description = COMPOUND_STRING("Ups Atk & Speed if poisoned."),
         .aiRating = 6,
     },
 
@@ -2607,4 +2607,31 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_HEAVY_BALLISTICS] =
+    {
+    #if B_EXPANDED_ABILITY_NAMES == TRUE
+        .name = _("Heavy Ballistics"),
+    #else
+        .name = _("HvyBllistics")
+    #endif
+        
+        .description = COMPOUND_STRING("Boosts projectile moves."),
+        .aiRating = 7,
+    },
+
+    [ABILITY_VENOM_COATING] =
+    {
+        .name = _("Venom Coating"),
+        .description = COMPOUND_STRING("Inflicts toxic on contact."),
+        .aiRating = 4,
+    },
+
+    [ABILITY_HONED_MIND] =
+    {
+        .name = _("Honed Mind"),
+        .description = COMPOUND_STRING("Powers up mystical moves."),
+        .aiRating = 6,
+    },
+
 };
