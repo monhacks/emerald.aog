@@ -10894,7 +10894,7 @@ static const struct TrainerMon sParty_Cory1[] = {
     {
     .lvl = 30,
     .species = SPECIES_TENTACRUEL,
-    .moves = {MOVE_TOXIC, MOVE_HEX, MOVE_BUBBLE_BEAM, MOVE_BARRIER},
+    .moves = {MOVE_TOXIC, MOVE_HEX, MOVE_BUBBLE_BEAM, MOVE_ACID_ARMOR},
     }
 };
 
@@ -12745,72 +12745,92 @@ static const struct TrainerMon sParty_Andres5[] = {
 static const struct TrainerMon sParty_Cory2[] = {
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 30,
-    .species = SPECIES_WINGULL,
+    .lvl = 38,
+    .species = SPECIES_KILOWATTREL,
+    .moves = {MOVE_ELECTRO_BALL, MOVE_ROOST, MOVE_AIR_SLASH, MOVE_FEATHER_DANCE},
     },
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 30,
-    .species = SPECIES_MACHOP,
+    .lvl = 38,
+    .species = SPECIES_MACHOKE,
+    .ability = ABILITY_NO_GUARD,
+    .moves = {MOVE_SUBMISSION, MOVE_REVENGE, MOVE_BULK_UP, MOVE_THUNDER_PUNCH},
     },
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 30,
-    .species = SPECIES_TENTACOOL,
+    .lvl = 38,
+    .species = SPECIES_TENTACRUEL,
+    .moves = {MOVE_TOXIC, MOVE_HEX, MOVE_SURF, MOVE_ACID_ARMOR},
     }
 };
 
 static const struct TrainerMon sParty_Cory3[] = {
     {
     .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 32,
-    .species = SPECIES_PELIPPER,
+    .lvl = 43,
+    .species = SPECIES_KILOWATTREL,
+    .moves = {MOVE_VOLT_SWITCH, MOVE_ROOST, MOVE_AIR_SLASH, MOVE_TAILWIND},
     },
     {
     .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 32,
-    .species = SPECIES_MACHOP,
+    .lvl = 43,
+    .species = SPECIES_MACHOKE,
+    .ability = ABILITY_NO_GUARD,
+    .moves = {MOVE_SUBMISSION, MOVE_KNOCK_OFF, MOVE_BULK_UP, MOVE_THUNDER_PUNCH},
     },
     {
     .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 32,
-    .species = SPECIES_TENTACOOL,
+    .lvl = 43,
+    .species = SPECIES_TENTACRUEL,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_TOXIC, MOVE_HEX, MOVE_SURF, MOVE_ACID_ARMOR},
     }
 };
 
 static const struct TrainerMon sParty_Cory4[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 34,
-    .species = SPECIES_PELIPPER,
+    .lvl = 48,
+    .species = SPECIES_KILOWATTREL,
+    .moves = {MOVE_VOLT_SWITCH, MOVE_DISCHARGE, MOVE_AIR_SLASH, MOVE_TAILWIND},
     },
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 34,
-    .species = SPECIES_MACHOP,
+    .lvl = 48,
+    .species = SPECIES_MACHAMP,
+    .ability = ABILITY_NO_GUARD,
+    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_KNOCK_OFF, MOVE_BULK_UP, MOVE_STONE_EDGE},
     },
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 34,
+    .lvl = 48,
     .species = SPECIES_TENTACRUEL,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_TOXIC, MOVE_HEX, MOVE_SURF, MOVE_ACID_ARMOR},
     }
 };
 
 static const struct TrainerMon sParty_Cory5[] = {
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 36,
-    .species = SPECIES_PELIPPER,
+    .lvl = 54,
+    .species = SPECIES_KILOWATTREL,
+    .moves = {MOVE_VOLT_SWITCH, MOVE_DISCHARGE, MOVE_HURRICANE, MOVE_TAILWIND},
     },
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 36,
-    .species = SPECIES_MACHOKE,
+    .lvl = 54,
+    .species = SPECIES_MACHAMP,
+    .ability = ABILITY_NO_GUARD,
+    .heldItem = ITEM_MUSCLE_BAND,
+    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_KNOCK_OFF, MOVE_ICE_PUNCH, MOVE_STONE_EDGE},
     },
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 36,
+    .lvl = 54,
     .species = SPECIES_TENTACRUEL,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_TOXIC, MOVE_HEX, MOVE_SURF, MOVE_SLUDGE_WAVE},
     }
 };
 
