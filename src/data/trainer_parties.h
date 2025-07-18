@@ -2290,42 +2290,76 @@ static const struct TrainerMon sParty_Chad[] = {
 static const struct TrainerMon sParty_Tony2[] = {
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 30,
+    .lvl = 38,
     .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_SLASH, MOVE_CRUNCH, MOVE_SWAGGER, MOVE_ICE_FANG},
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
+    .lvl = 38,
+    .species = SPECIES_DRAGALGE,
+    .moves = {MOVE_DRAGON_BREATH, MOVE_ACID, MOVE_SURF, MOVE_SMOKESCREEN},
     }
 };
 
 static const struct TrainerMon sParty_Tony3[] = {
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 33,
+    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2), 
+    .lvl = 43,
     .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_SLASH, MOVE_CRUNCH, MOVE_SWAGGER, MOVE_ICE_FANG},
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+    .lvl = 43,
+    .species = SPECIES_DRAGALGE,
+    .ability = ABILITY_POISON_TOUCH,
+    .moves = {MOVE_DRAGON_BREATH, MOVE_POISON_TAIL, MOVE_AQUA_TAIL, MOVE_SMOKESCREEN},
     }
 };
 
 static const struct TrainerMon sParty_Tony4[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 34,
-    .species = SPECIES_STARYU,
+    .lvl = 47,
+    .species = SPECIES_STARMIE,
+    .moves = {MOVE_SURF, MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_RECOVER},
     },
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 36,
+    .lvl = 47,
     .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_AQUA_JET, MOVE_CRUNCH, MOVE_SWAGGER, MOVE_ICE_FANG},
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+    .lvl = 47,
+    .species = SPECIES_DRAGALGE,
+    .ability = ABILITY_POISON_TOUCH,
+    .moves = {MOVE_DRAGON_PULSE, MOVE_POISON_TAIL, MOVE_AQUA_TAIL, MOVE_SMOKESCREEN},
     }
 };
 
 static const struct TrainerMon sParty_Tony5[] = {
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 37,
+    .lvl = 53,
     .species = SPECIES_STARMIE,
+    .moves = {MOVE_SURF, MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_RECOVER},
     },
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 39,
+    .lvl = 52,
     .species = SPECIES_SHARPEDO,
+    .ability = ABILITY_SPEED_BOOST,
+    .moves = {MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_PROTECT, MOVE_ICE_FANG},
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+    .lvl = 52,
+    .species = SPECIES_DRAGALGE,
+    .ability = ABILITY_POISON_TOUCH,
+    .moves = {MOVE_DRAGON_PULSE, MOVE_POISON_TAIL, MOVE_AQUA_TAIL, MOVE_SMOKESCREEN},
     }
 };
 
