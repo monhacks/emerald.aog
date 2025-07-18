@@ -3582,14 +3582,14 @@
                 "species": "SPECIES_CLAWITZER"
               },
               {
-                "min_level": 35,
+                "min_level": 37,
                 "max_level": 40,
-                "species": "SPECIES_SKRELP"
+                "species": "SPECIES_DRAGALGE"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_SKRELP"
+                "species": "SPECIES_DRAGALGE"
               }
             ]
           }

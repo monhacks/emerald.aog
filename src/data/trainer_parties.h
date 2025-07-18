@@ -4743,6 +4743,7 @@ static const struct TrainerMon sParty_Ben[] = {
     .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
     .lvl = 23,
     .species = SPECIES_GULPIN,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE, MOVE_YAWN, MOVE_THUNDER_PUNCH},
     },
     {
