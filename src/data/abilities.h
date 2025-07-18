@@ -2638,7 +2638,6 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     {
         .name = _("Snack"),
         .description = COMPOUND_STRING("Held food recovers HP."),
-        .aiRating = 6,
+        .aiRating = 3,
     },
-
 };

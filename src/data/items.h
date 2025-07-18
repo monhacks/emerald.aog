@@ -1080,6 +1080,7 @@ const struct Item gItemsInfo[] =
         .battleUsage = EFFECT_ITEM_CURE_STATUS,
         .effect = gItemEffect_FullHeal,
         .flingPower = 30,
+        .isFood = 1,
     },
 
     [ITEM_OLD_GATEAU] =
@@ -2510,6 +2511,7 @@ const struct Item gItemsInfo[] =
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Honey,
         .flingPower = 30,
+        .isFood = 1,
     },
 
     [ITEM_RARE_BONE] =
@@ -3521,6 +3523,7 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 30,
+        .isFood = 1,
     },
 
     [ITEM_TART_APPLE] =
@@ -3536,6 +3539,7 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 30,
+        .isFood = 1,
     },
 
     [ITEM_CRACKED_POT] =
@@ -6198,6 +6202,7 @@ const struct Item gItemsInfo[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 60,
+        .isFood = 1,
     },
 
     [ITEM_THICK_CLUB] =
@@ -12331,6 +12336,7 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 30,
+        .isFood = 1,
     },
 
     [ITEM_UNREMARKABLE_TEACUP] =
