@@ -904,6 +904,9 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	waitfanfare
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_GiveEXPShare, MSGBOX_DEFAULT
+	giveitem ITEM_EXP_SHARE
+	setflag FLAG_RECIEVED_EXP_SHARE
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -946,6 +949,10 @@ LittlerootTown_Text_ExplainRunningShoes:
 	.string "RUNNING SHOES to run extra-fast!\p"
 	.string "“Slip on these RUNNING SHOES and race\n"
 	.string "in the great outdoors!”$"
+
+LittlerootTown_Text_GiveEXPShare:
+	.string "MOM: Your father also wanted you to\n"
+	.string "have this.$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"

@@ -5118,7 +5118,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 break;
             case ABILITY_MAGMA_ARMOR:
                 if (moveType == TYPE_WATER && gMovesInfo[move].target != MOVE_TARGET_ALL_BATTLERS)
-                    effect = 2, statId = STAT_DEF, statAmount = 2;
+                    effect = 2, statId = STAT_DEF;
                 break;
             case ABILITY_LIGHTNING_ROD:
                 if (B_REDIRECT_ABILITY_IMMUNITY >= GEN_5 && moveType == TYPE_ELECTRIC && gMovesInfo[move].target != MOVE_TARGET_ALL_BATTLERS)
@@ -8208,7 +8208,7 @@ u8 IsMonDisobedient(void)
         if (FlagGet(FLAG_BADGE08_GET)) // Rain Badge, ignore obedience altogether
             return 0;
 
-        obedienceLevel = 10;
+        obedienceLevel = 15;
 
         if (FlagGet(FLAG_BADGE01_GET)) // Stone Badge
             obedienceLevel = 20;
@@ -9036,7 +9036,7 @@ static inline u32 CalcMoveBasePowerAfterModifiers(u32 move, u32 battlerAtk, u32 
         break;
     case ABILITY_IRON_FIST:
         if (gMovesInfo[move].punchingMove)
-           modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
         break;
     case ABILITY_SHEER_FORCE:
         if (MoveIsAffectedBySheerForce(move))

@@ -81,7 +81,11 @@
     F(THUNDER_WAVE)\
     F(KNOCK_OFF)\
     F(TRIPLE_AXEL)\
-    F(WEATHER_BALL)
+    F(WEATHER_BALL)\
+    F(TRICK_ROOM)\
+    F(CLOSE_COMBAT)\
+    F(FLAME_CHARGE)\
+    F(SOLAR_BLADE)
 
 #define FOREACH_HM(F) \
     F(CUT) \

@@ -1730,7 +1730,7 @@
     },
     {
       "map_section": "MAPSEC_DEEP_PETALBURG_WOODS",
-      "name": "DEEP PETALBURG WOODS",
+      "name": "DEEP PTLBRG WOODS",
       "x": 1,
       "y": 8,
       "width": 1,
@@ -1746,7 +1746,7 @@
     },
     {
       "map_section": "MAPSEC_VERDANTURF_SANCTUARY",
-      "name": "VERDANTURF SANCTUARY",
+      "name": "VERDANT MEADOW",
       "x": 4,
       "y": 6,
       "width": 1,

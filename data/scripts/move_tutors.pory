@@ -442,7 +442,7 @@ script MoveTutor_EventScript_Dewford_Tutor2 {
     dynmultipush("SEISMIC TOSS", 1)
     dynmultipush("FOCUS ENERGY", 2)
     dynmultipush("MEGA PUNCH", 3)
-	dynmultipush("PAYBACK", 4)
+	dynmultipush("AURA SPHERE", 4)
 	dynmultipush("SUBMISSION", 5)
 	dynmultipush("BODY SLAM", 6)
 	dynmultipush("MEGA KICK", 7)
@@ -461,7 +461,7 @@ script MoveTutor_EventScript_Dewford_Tutor2 {
             setvar(VAR_0x8005, MOVE_MEGA_PUNCH)
             call(MoveTutor_EventScript_OpenPartyMenu)
 		case 4:
-            setvar(VAR_0x8005, MOVE_PAYBACK)
+            setvar(VAR_0x8005, MOVE_AURA_SPHERE)
             call(MoveTutor_EventScript_OpenPartyMenu)
         case 5:
             setvar(VAR_0x8005, MOVE_SUBMISSION)

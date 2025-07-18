@@ -1017,7 +1017,7 @@ MoveTutor_EventScript_Dewford_Tutor2_5:
 
 MoveTutor_EventScript_Dewford_Tutor2_6:
 # 464 "data/scripts/move_tutors.pory"
-	setvar VAR_0x8005, MOVE_PAYBACK
+	setvar VAR_0x8005, MOVE_AURA_SPHERE
 # 465 "data/scripts/move_tutors.pory"
 	call MoveTutor_EventScript_OpenPartyMenu
 	return
@@ -1139,7 +1139,7 @@ MoveTutor_EventScript_Dewford_Tutor1_Text_3:
 
 MoveTutor_EventScript_Dewford_Tutor2_Text_0:
 # 445 "data/scripts/move_tutors.pory"
-	.string "PAYBACK$"
+	.string "AURA SPHERE$"
 
 MoveTutor_EventScript_Dewford_Tutor2_Text_1:
 # 446 "data/scripts/move_tutors.pory"

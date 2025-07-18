@@ -16,6 +16,7 @@ MauvilleCity_Mart_EventScript_Clerk::
 MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_FAST_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
@@ -40,6 +41,7 @@ MauvilleCity_Mart_EventScript_ExpandedItems::
 MauvilleCity_Mart_Pokemart_Expanded:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_FAST_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL

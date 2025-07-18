@@ -96,6 +96,8 @@ Route119_EventScript_BattleMayMudkip::
 
 Route119_EventScript_DefeatedMay::
 	msgbox Route119_Text_MayPresentForYou, MSGBOX_DEFAULT
+	call Route119_EventScript_GiveAbilityPatch
+	msgbox Route119_Text_BrendanMayThisToo, MSGBOX_DEFAULT
 	call Route119_EventScript_GiveFlyHM
 	msgbox Route119_Text_MayExplainFly, MSGBOX_DEFAULT
 	goto Route119_EventScript_RivalExitScottArrive
@@ -126,6 +128,8 @@ Route119_EventScript_BattleBrendanMudkip::
 
 Route119_EventScript_DefeatedBrendan::
 	msgbox Route119_Text_BrendanIllGiveYouThis, MSGBOX_DEFAULT
+	call Route119_EventScript_GiveAbilityPatch
+	msgbox Route119_Text_BrendanMayThisToo, MSGBOX_DEFAULT
 	call Route119_EventScript_GiveFlyHM
 	msgbox Route119_Text_BrendanExplainFly, MSGBOX_DEFAULT
 	goto Route119_EventScript_RivalExitScottArrive
@@ -134,6 +138,10 @@ Route119_EventScript_DefeatedBrendan::
 Route119_EventScript_GiveFlyHM::
 	giveitem ITEM_HM_FLY
 	setflag FLAG_RECEIVED_HM_FLY
+	return
+
+Route119_EventScript_GiveAbilityPatch::
+	giveitem ITEM_ABILITY_PATCH
 	return
 
 Route119_EventScript_RivalExitScottArrive::
@@ -612,3 +620,6 @@ Route119_Text_TrainerTipsDecoration:
 	.string "Pick your favorite items and create\n"
 	.string "your very own SECRET BASE exactly the\l"
 	.string "way you want.$"
+
+Route119_Text_BrendanMayThisToo:
+	.string "Have this, too.$"

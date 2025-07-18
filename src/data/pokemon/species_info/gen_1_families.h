@@ -4864,7 +4864,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 50,
         .baseSpAttack  = 90,
         .baseSpDefense = 100,
-        .types = MON_TYPES(TYPE_GRASS),
+        .types = MON_TYPES(TYPE_GRASS, TYPE_FAIRY),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 245,
@@ -12429,7 +12429,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sScytherTeachableLearnset,
         .evolutions = EVOLUTION({EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_SCIZOR},
                                 {EVO_ITEM, ITEM_BLACK_AUGURITE, SPECIES_KLEAVOR},
-                                {EVO_ITEM, ITEM_METAL_COAT, SPECIES_SCIZOR}),
+                                {EVO_ITEM, ITEM_METAL_COAT, SPECIES_SCIZOR},
+                                {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_KLEAVOR}),
     },
 
 #if P_GEN_2_CROSS_EVOS

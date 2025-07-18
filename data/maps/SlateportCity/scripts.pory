@@ -1468,8 +1468,8 @@ mart SlateportCity_Pokemart_Cook2_Badge4{
 
 
 text SlateportBerrySellerIntro{
-    "Welcome! Fresh produce just for you, and at\n"
-    "a low, low price!\n"
+    "Welcome! Fresh produce just for you,\n"
+    "and at a low, low price!\n"
 }
 
 text SlateportBerrySellerOutro{

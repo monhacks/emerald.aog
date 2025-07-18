@@ -67,15 +67,6 @@ OldaleTown_PokemonCenter_1F_Text_TradedInWirelessClub:
 script OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid {
     lock
     faceplayer
-    if(flag(FLAG_RECIEVED_EXP_SHARE) == FALSE){
-        msgbox(EXPShareKidIntro, MSGBOX_DEFAULT)
-        giveitem (ITEM_EXP_SHARE)
-        setflag (FLAG_RECIEVED_EXP_SHARE)
-        msgbox(EXPShareKidExplain, MSGBOX_DEFAULT)
-        closemessage
-        release
-        end
-    }
     msgbox(EXPShareKidExplain, MSGBOX_DEFAULT)
     closemessage
     release

@@ -133,64 +133,47 @@ OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid::
 # 69 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	faceplayer
 # 70 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	goto_if_unset FLAG_RECIEVED_EXP_SHARE, OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid_2
-# 79 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	msgbox EXPShareKidExplain, MSGBOX_DEFAULT
-# 80 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	closemessage
-# 81 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	release
-	end
-
-OldaleTown_PokemonCenter_1F_EventScript_ExpShareKid_2:
 # 71 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	msgbox EXPShareKidIntro, MSGBOX_DEFAULT
-# 72 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	giveitem ITEM_EXP_SHARE
-# 73 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	setflag FLAG_RECIEVED_EXP_SHARE
-# 74 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
-	msgbox EXPShareKidExplain, MSGBOX_DEFAULT
-# 75 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	closemessage
-# 76 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 72 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 OldaleTown_PokemonCenter_1F_EventScript_GiveEXPShare::
-# 86 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 77 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	msgbox EXPShareKidIntro, MSGBOX_DEFAULT
-# 87 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 78 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	giveitem ITEM_EXP_SHARE
-# 88 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 79 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	setflag FLAG_RECIEVED_EXP_SHARE
-# 89 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 80 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	msgbox EXPShareKidExplain, MSGBOX_DEFAULT
-# 90 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 81 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	closemessage
-# 91 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 82 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 OldaleTown_PokemonCenter_1F_EventScript_AfterEXPShare::
-# 96 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 87 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	msgbox EXPShareKidExplain, MSGBOX_DEFAULT
-# 97 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 88 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	closemessage
-# 98 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 89 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	release
 	end
 
 
 EXPShareKidIntro::
-# 102 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 93 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "You look like a new trainer.\p"
 	.string "You should take this!$"
 
 EXPShareKidExplain::
-# 107 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
+# 98 "data/maps/OldaleTown_PokemonCenter_1F/scripts.pory"
 	.string "The EXP Share is an item that shares\n"
 	.string "experience with your entire party.\p"
 	.string "It should make training your team\n"

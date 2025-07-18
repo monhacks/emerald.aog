@@ -15,6 +15,8 @@ SlateportCity_Mart_EventScript_Clerk::
 SlateportCity_Mart_Pokemart:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_QUICK_BALL
+	.2byte ITEM_TIMER_BALL
 	.2byte ITEM_POTION
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE

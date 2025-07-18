@@ -1336,7 +1336,7 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "Whoops! The doors in this room are\n"
 	.string "already open, so don't attack me!\p"
 	.string "The TRAINERS of PETALBURG GYM\n"
-	.string "use all kinds of items.\p"
+	.string "specialize in DOUBLE BATTLES.\p"
 	.string "The door at the left leads to\n"
 	.string "the SPEED ROOM.\p"
 	.string "The door at the right leads to\n"

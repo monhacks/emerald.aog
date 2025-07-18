@@ -2626,7 +2626,8 @@
       "MOVE_PAIN_SPLIT",
       "MOVE_PSYCH_UP",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_SCORCHING_SANDS"
+      "MOVE_SCORCHING_SANDS",
+      "MOVE_CURSE"
     ],
     "EggMoves": [
       "MOVE_BABY_DOLL_EYES",
@@ -28335,7 +28336,8 @@
       "MOVE_FOCUS_PUNCH",
       "MOVE_DOUBLE_EDGE",
       "MOVE_ENDEAVOR",
-      "MOVE_SKITTER_SMACK"
+      "MOVE_SKITTER_SMACK",
+      "MOVE_FOLLOW_ME"
     ],
     "EggMoves": [
       "MOVE_COUNTER",
@@ -28464,7 +28466,8 @@
       "MOVE_PSYCH_UP",
       "MOVE_DOUBLE_EDGE",
       "MOVE_ENDEAVOR",
-      "MOVE_SKITTER_SMACK"
+      "MOVE_SKITTER_SMACK",
+      "MOVE_FOLLOW_ME"
     ],
     "EggMoves": [
       "MOVE_ATTRACT",
@@ -30333,6 +30336,7 @@
       "MOVE_ICE_BEAM",
       "MOVE_FIRE_BLAST",
       "MOVE_EARTHQUAKE",
+      "MOVE_EARTH_POWER",
       "MOVE_GIGA_IMPACT",
       "MOVE_OUTRAGE",
       "MOVE_HURRICANE",
@@ -32173,7 +32177,9 @@
     "LevelMoves": [],
     "PreEvoMoves": [],
     "TMMoves": [],
-    "EggMoves": [],
+    "EggMoves": [
+      "MOVE_PSYCHO_CUT"
+    ],
     "TutorMoves": []
   },
   "WYNAUT": {
@@ -63445,7 +63451,8 @@
       "MOVE_FIRE_SPIN",
       "MOVE_STORED_POWER",
       "MOVE_HEAT_WAVE",
-      "MOVE_DAZZLING_GLEAM"
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_CONFUSE_RAY"
     ],
     "EggMoves": [
       "MOVE_ATTRACT",
@@ -79218,7 +79225,7 @@
       },
       {
         "Level": 30,
-        "Move": "MOVE_DUAL_WINGBEAT"
+        "Move": "MOVE_AIR_SLASH"
       },
       {
         "Level": 36,

@@ -1336,7 +1336,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "May lower Defense."),
         #endif
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = 50,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 30,
@@ -8020,15 +8020,14 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .description = COMPOUND_STRING(
             "Attacks with muddy water.\n"
             "May lower accuracy."),
-        .effect = EFFECT_TWO_TYPED_MOVE,
-        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 75 : 95,
-        .type = TYPE_GROUND,
+        .effect = EFFECT_HIT,
+        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,
+        .type = TYPE_WATER,
         .accuracy = 85,
         .pp = 10,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
-        .argument = TYPE_WATER,
         .skyBattleBanned = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ACC_MINUS_1,

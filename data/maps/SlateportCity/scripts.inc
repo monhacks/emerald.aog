@@ -2920,8 +2920,8 @@ SlateportCity_Pokemart_Cook2_Badge4:
 
 SlateportBerrySellerIntro::
 # 1470 "data/maps/SlateportCity/scripts.pory"
-	.string "Welcome! Fresh produce just for you, and at\n"
-	.string "a low, low price!\n$"
+	.string "Welcome! Fresh produce just for you,\n"
+	.string "and at a low, low price!\n$"
 
 SlateportBerrySellerOutro::
 # 1475 "data/maps/SlateportCity/scripts.pory"

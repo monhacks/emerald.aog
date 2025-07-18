@@ -1180,7 +1180,7 @@
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0x46B
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET                           0x46C
 #define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
-#define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
+#define FLAG_ITEM_ROUTE_119_TM84                                    0x46E
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
 #define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
 #define FLAG_ITEM_ROUTE_103_PP_UP                                   0x471
@@ -1242,7 +1242,7 @@
 #define FLAG_ITEM_ROUGH_CAVE_SAFETY_GOGGLES                         0x4A8 // Unused Flag
 #define FLAG_ITEM_ROUGH_CAVE_NEVER_MELT_ICE                         0x4A9 // Unused Flag
 #define FLAG_ITEM_ROUGH_CAVE_ICE_STONE                              0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
+#define FLAG_ITEM_WEATHER_INSTITUTE_TM80                            0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
 #define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag

@@ -157,7 +157,7 @@ const struct Item gItemsInfo[] =
     [ITEM_POKE_BALL] =
     {
         .name = _("Poké Ball"),
-        .price = 200,
+        .price = 100,
         .description = COMPOUND_STRING(
             "A tool used for\n"
             "catching wild\n"
@@ -171,7 +171,7 @@ const struct Item gItemsInfo[] =
     [ITEM_GREAT_BALL] =
     {
         .name = _("Great Ball"),
-        .price = 600,
+        .price = 450,
         .description = COMPOUND_STRING(
             "A good Ball with a\n"
             "higher catch rate\n"
@@ -185,7 +185,7 @@ const struct Item gItemsInfo[] =
     [ITEM_ULTRA_BALL] =
     {
         .name = _("Ultra Ball"),
-        .price = (I_PRICE >= GEN_7) ? 800 : 1200,
+        .price = (I_PRICE >= GEN_7) ? 700 : 1200,
         .description = COMPOUND_STRING(
             "A better Ball with\n"
             "a higher catch rate\n"
@@ -227,7 +227,7 @@ const struct Item gItemsInfo[] =
     [ITEM_HEAL_BALL] =
     {
         .name = _("Heal Ball"),
-        .price = 300,
+        .price = 200,
         .description = COMPOUND_STRING(
             "A remedial Ball\n"
             "that restores\n"
@@ -241,7 +241,7 @@ const struct Item gItemsInfo[] =
     [ITEM_NET_BALL] =
     {
         .name = _("Net Ball"),
-        .price = 1000,
+        .price = 700,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "well on Water- and\n"
@@ -255,7 +255,7 @@ const struct Item gItemsInfo[] =
     [ITEM_NEST_BALL] =
     {
         .name = _("Nest Ball"),
-        .price = 1000,
+        .price = 400,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "better on weaker\n"
@@ -269,7 +269,7 @@ const struct Item gItemsInfo[] =
     [ITEM_DIVE_BALL] =
     {
         .name = _("Dive Ball"),
-        .price = 1000,
+        .price = 700,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "better on Pokémon\n"
@@ -297,7 +297,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TIMER_BALL] =
     {
         .name = _("Timer Ball"),
-        .price = 1000,
+        .price = 550,
         .description = COMPOUND_STRING(
             "A Ball that gains\n"
             "power in battles\n"
@@ -325,7 +325,7 @@ const struct Item gItemsInfo[] =
     [ITEM_REPEAT_BALL] =
     {
         .name = _("Repeat Ball"),
-        .price = 1000,
+        .price = 500,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "better on Pokémon\n"
@@ -353,7 +353,7 @@ const struct Item gItemsInfo[] =
     [ITEM_LEVEL_BALL] =
     {
         .name = _("Level Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "well on lower\n"
@@ -367,7 +367,7 @@ const struct Item gItemsInfo[] =
     [ITEM_LURE_BALL] =
     {
         .name = _("Lure Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "well on fished\n"
@@ -381,7 +381,7 @@ const struct Item gItemsInfo[] =
     [ITEM_MOON_BALL] =
     {
         .name = _("Moon Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "A Ball that works\n"
             "well on Moon\n"
@@ -395,7 +395,7 @@ const struct Item gItemsInfo[] =
     [ITEM_FRIEND_BALL] =
     {
         .name = _("Friend Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "A Ball that makes\n"
             "a Pokémon friendly\n"
@@ -409,7 +409,7 @@ const struct Item gItemsInfo[] =
     [ITEM_LOVE_BALL] =
     {
         .name = _("Love Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "Works well on\n"
             "Pokémon of the\n"
@@ -423,7 +423,7 @@ const struct Item gItemsInfo[] =
     [ITEM_FAST_BALL] =
     {
         .name = _("Fast Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "Works well on\n"
             "very fast\n"
@@ -437,7 +437,7 @@ const struct Item gItemsInfo[] =
     [ITEM_HEAVY_BALL] =
     {
         .name = _("Heavy Ball"),
-        .price = (I_PRICE >= GEN_7) ? 0 : 300,
+        .price = (I_PRICE >= GEN_7) ? 500 : 300,
         .description = COMPOUND_STRING(
             "Works well on\n"
             "very heavy\n"
@@ -1896,7 +1896,7 @@ const struct Item gItemsInfo[] =
     [ITEM_REPEL] =
     {
         .name = _("Repel"),
-        .price = (I_PRICE >= GEN_7) ? 400 : 350,
+        .price = (I_PRICE >= GEN_7) ? 150 : 350,
         .holdEffectParam = 100,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -1911,7 +1911,7 @@ const struct Item gItemsInfo[] =
     [ITEM_SUPER_REPEL] =
     {
         .name = _("Super Repel"),
-        .price = (I_PRICE >= GEN_7) ? 700 : 500,
+        .price = (I_PRICE >= GEN_7) ? 250 : 500,
         .holdEffectParam = 200,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -1926,7 +1926,7 @@ const struct Item gItemsInfo[] =
     [ITEM_MAX_REPEL] =
     {
         .name = _("Max Repel"),
-        .price = (I_PRICE >= GEN_7) ? 900 : 700,
+        .price = (I_PRICE >= GEN_7) ? 275 : 700,
         .holdEffectParam = 250,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
@@ -2486,7 +2486,7 @@ const struct Item gItemsInfo[] =
     [ITEM_HEART_SCALE] =
     {
         .name = _("Heart Scale"),
-        .price = 100,
+        .price = 2500,
         .description = COMPOUND_STRING(
             "A lovely scale.\n"
             "It is coveted by\n"
@@ -10439,48 +10439,60 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM81"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Creates a space\n" 
+            "in which slower\n"
+            "Pokémon go first."), // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_TRICK_ROOM, // Todo
     },
 
     [ITEM_TM82] =
     {
         .name = _("TM82"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "A strong attack\n" 
+            "that lowers the\n"
+            "user's defenses."), // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_CLOSE_COMBAT, // Todo
     },
 
     [ITEM_TM83] =
     {
         .name = _("TM83"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Attacks in a\n" 
+            "cloak of flames.\n"
+            "Raises Speed."), // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_FLAME_CHARGE, // Todo
     },
 
     [ITEM_TM84] =
     {
         .name = _("TM84"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Charges first turn,\n" 
+            "then chops with a\n"
+            "blade of light."), // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_SOLAR_BLADE, // Todo
     },
 
     [ITEM_TM85] =

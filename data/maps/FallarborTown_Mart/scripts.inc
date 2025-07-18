@@ -6,6 +6,7 @@ FallarborTown_Mart_EventScript_Clerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
+	goto_if_set FLAG_PETALBURG_MART_EXPANDED_ITEMS, FallarborTown_Mart_EventScript_ExpandedItems
 	pokemart FallarborTown_Mart_Pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
@@ -14,6 +15,7 @@ FallarborTown_Mart_EventScript_Clerk::
 	.align 2
 FallarborTown_Mart_Pokemart:
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_MOON_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
@@ -27,6 +29,33 @@ FallarborTown_Mart_Pokemart:
 	.2byte ITEM_GUARD_SPEC
 	.2byte ITEM_MOON_STONE
 	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_NONE
+	release
+	end
+
+FallarborTown_Mart_EventScript_ExpandedItems::
+	pokemart FallarborTown_Mart_Pokemart2
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end	
+
+FallarborTown_Mart_Pokemart2:
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_MOON_BALL
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_X_SP_ATK
+	.2byte ITEM_X_SPEED
+	.2byte ITEM_X_ATTACK
+	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_DIRE_HIT
+	.2byte ITEM_GUARD_SPEC
+	.2byte ITEM_MOON_STONE
+	.2byte ITEM_LEAF_STONE
+	.2byte ITEM_HEART_SCALE
 	.2byte ITEM_NONE
 	release
 	end

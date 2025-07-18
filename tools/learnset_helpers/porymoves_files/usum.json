@@ -48043,7 +48043,10 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WATERFALL",
-      "MOVE_CONFIDE"
+      "MOVE_CONFIDE",
+      "MOVE_THUNDER_FANG",
+      "MOVE_POISON_FANG",
+      "MOVE_PSYCHIC_FANGS"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",

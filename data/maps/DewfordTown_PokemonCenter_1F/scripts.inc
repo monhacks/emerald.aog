@@ -76,3 +76,92 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
 	.string "battle, it can still use a move learned\l"
 # 39 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	.string "from a HIDDEN MACHINE (HM).$"
+
+DewfordTown_PokemonCenter_1F_Eventscript_Mart::
+# 43 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	lock
+# 44 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	faceplayer
+# 45 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	message gText_HowMayIServeYou
+# 46 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	waitmessage
+# 47 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	goto_if_set FLAG_BADGE05_GET, DewfordTown_PokemonCenter_1F_Eventscript_Mart_2
+# 54 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	pokemart DewfordTown_PokemonCenter_1F_Pokemart_Employee
+# 56 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	msgbox gText_PleaseComeAgain
+# 57 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	release
+	end
+
+DewfordTown_PokemonCenter_1F_Eventscript_Mart_2:
+# 48 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	pokemart DewfordTown_PokemonCenter_1F_Pokemart_Employee_Gym5
+# 49 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	msgbox gText_PleaseComeAgain
+# 50 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	release
+	end
+
+
+	.align 2
+# 61 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+DewfordTown_PokemonCenter_1F_Pokemart_Employee:
+# 62 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_POKE_BALL
+# 63 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_GREAT_BALL
+# 64 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_LURE_BALL
+# 65 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_DUSK_BALL
+# 66 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_POTION
+# 67 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_SUPER_POTION
+# 68 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_ANTIDOTE
+# 69 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_PARALYZE_HEAL
+# 70 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_AWAKENING
+# 71 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_REPEL
+# 72 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_NONE
+
+	.align 2
+# 75 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+DewfordTown_PokemonCenter_1F_Pokemart_Employee_Gym5:
+# 76 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_POKE_BALL
+# 77 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_GREAT_BALL
+# 78 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_ULTRA_BALL
+# 79 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_LURE_BALL
+# 80 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_DUSK_BALL
+# 81 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_POTION
+# 82 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_SUPER_POTION
+# 83 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_HYPER_POTION
+# 84 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_ANTIDOTE
+# 85 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_PARALYZE_HEAL
+# 86 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_AWAKENING
+# 87 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_BURN_HEAL
+# 88 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_REPEL
+# 89 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_NONE

@@ -4467,7 +4467,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         FOOTPRINT(Ursaring)
         .levelUpLearnset = sUrsaringLevelUpLearnset,
         .teachableLearnset = sUrsaringTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_PEAT_BLOCK, SPECIES_URSALUNA},
+        .evolutions = EVOLUTION({EVO_LEVEL, 43, SPECIES_URSALUNA},
                                 {EVO_NONE, 0, SPECIES_URSALUNA_BLOODMOON}),
     },
 

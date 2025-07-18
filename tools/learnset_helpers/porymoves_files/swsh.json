@@ -8381,7 +8381,10 @@
       "MOVE_IRON_DEFENSE",
       "MOVE_EARTH_POWER",
       "MOVE_IRON_HEAD",
-      "MOVE_STEALTH_ROCK"
+      "MOVE_STEALTH_ROCK",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_ICE_PUNCH"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -8507,7 +8510,10 @@
       "MOVE_IRON_HEAD",
       "MOVE_STONE_EDGE",
       "MOVE_STEALTH_ROCK",
-      "MOVE_THROAT_CHOP"
+      "MOVE_THROAT_CHOP",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_ICE_PUNCH"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -29114,7 +29120,8 @@
       "MOVE_DOUBLE_EDGE",
       "MOVE_FEINT",
       "MOVE_MAGIC_COAT",
-      "MOVE_MEAN_LOOK"
+      "MOVE_MEAN_LOOK",
+      "MOVE_PSYCHO_CUT"
     ],
     "TutorMoves": []
   },
@@ -79031,7 +79038,10 @@
       "MOVE_STONE_EDGE",
       "MOVE_STEALTH_ROCK",
       "MOVE_ALLY_SWITCH",
-      "MOVE_THROAT_CHOP"
+      "MOVE_THROAT_CHOP",
+      "MOVE_FIRE_PUNCH",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_ICE_PUNCH"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",

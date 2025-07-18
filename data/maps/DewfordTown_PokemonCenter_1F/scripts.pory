@@ -39,3 +39,52 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
 	.string "from a HIDDEN MACHINE (HM).$"
 `
 
+script DewfordTown_PokemonCenter_1F_Eventscript_Mart {
+    lock
+    faceplayer
+    message(gText_HowMayIServeYou)
+    waitmessage
+	if(flag(FLAG_BADGE05_GET)){
+		pokemart(DewfordTown_PokemonCenter_1F_Pokemart_Employee_Gym5)
+		msgbox(gText_PleaseComeAgain)
+		release
+		end
+	}
+	else{
+		pokemart(DewfordTown_PokemonCenter_1F_Pokemart_Employee)
+	}
+    msgbox(gText_PleaseComeAgain)
+    release
+    end
+}
+
+mart DewfordTown_PokemonCenter_1F_Pokemart_Employee{
+    ITEM_POKE_BALL
+	ITEM_GREAT_BALL
+	ITEM_LURE_BALL
+	ITEM_DUSK_BALL
+	ITEM_POTION
+	ITEM_SUPER_POTION
+	ITEM_ANTIDOTE
+	ITEM_PARALYZE_HEAL
+	ITEM_AWAKENING
+	ITEM_REPEL
+	ITEM_ESCAPE_ROPE
+}
+
+mart DewfordTown_PokemonCenter_1F_Pokemart_Employee_Gym5{
+	ITEM_POKE_BALL
+	ITEM_GREAT_BALL
+	ITEM_ULTRA_BALL
+	ITEM_LURE_BALL
+	ITEM_DUSK_BALL
+	ITEM_POTION
+	ITEM_SUPER_POTION
+	ITEM_HYPER_POTION
+	ITEM_ANTIDOTE
+	ITEM_PARALYZE_HEAL
+	ITEM_AWAKENING
+	ITEM_BURN_HEAL
+	ITEM_REPEL
+	ITEM_ESCAPE_ROPE
+}
