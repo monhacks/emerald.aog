@@ -3642,13 +3642,13 @@ static const struct TrainerMon sParty_Roxanne1[] = {
     .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
     .lvl = 14,
     .species = SPECIES_ANORITH,
-    .moves = {MOVE_FURY_CUTTER, MOVE_METAL_CLAW, MOVE_ROCK_TOMB, MOVE_SCRATCH},
+    .moves = {MOVE_FURY_CUTTER, MOVE_HARDEN, MOVE_ROCK_TOMB, MOVE_SCRATCH},
     },
     {
     .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
     .lvl = 14,
     .species = SPECIES_LILEEP,
-    .moves = {MOVE_MEGA_DRAIN, MOVE_INGRAIN, MOVE_CONFUSE_RAY, MOVE_ROCK_TOMB},
+    .moves = {MOVE_ABSORB, MOVE_INGRAIN, MOVE_CONFUSE_RAY, MOVE_ROCK_TOMB},
     },
     {
     .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
@@ -12608,55 +12608,86 @@ static const struct TrainerMon sParty_Andres2[] = {
 
 static const struct TrainerMon sParty_Andres3[] = {
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 33,
-    .species = SPECIES_NOSEPASS,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 42,
+    .species = SPECIES_PROBOPASS,
+    .moves = {MOVE_EARTH_POWER, MOVE_FLASH_CANNON, MOVE_POWER_GEM, MOVE_STEALTH_ROCK},
     },
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 33,
-    .species = SPECIES_SANDSHREW,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 42,
+    .species = SPECIES_SANDSLASH_ALOLAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = ABILITY_SHARPNESS,
+    .moves = {MOVE_GYRO_BALL, MOVE_NIGHT_SLASH, MOVE_RAPID_SPIN, MOVE_ICICLE_CRASH},
     },
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 33,
-    .species = SPECIES_SANDSHREW,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 42,
+    .species = SPECIES_DONPHAN,
+    .moves = {MOVE_STOMPING_TANTRUM, MOVE_KNOCK_OFF, MOVE_SLAM, MOVE_SCARY_FACE},
     }
 };
 
 static const struct TrainerMon sParty_Andres4[] = {
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 35,
-    .species = SPECIES_NOSEPASS,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 47,
+    .species = SPECIES_HIPPOWDON,
+    .heldItem = ITEM_SMOOTH_ROCK
+    .moves = {MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK, MOVE_YAWN, MOVE_ICE_FANG},
     },
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 35,
-    .species = SPECIES_SANDSHREW,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 47,
+    .species = SPECIES_PROBOPASS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_ZAP_CANNON, MOVE_POWER_GEM, MOVE_GRAVITY},
     },
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 35,
-    .species = SPECIES_SANDSHREW,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 47,
+    .species = SPECIES_SANDSLASH_ALOLAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = ABILITY_SHARPNESS,
+    .moves = {MOVE_GYRO_BALL, MOVE_NIGHT_SLASH, MOVE_RAPID_SPIN, MOVE_TRIPLE_AXEL},
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 47,
+    .species = SPECIES_DONPHAN,
+    .moves = {MOVE_EARTHQUAKE, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_SCARY_FACE},
     }
 };
 
 static const struct TrainerMon sParty_Andres5[] = {
     {
-    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 37,
-    .species = SPECIES_NOSEPASS,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 52,
+    .species = SPECIES_HIPPOWDON,
+    .heldItem = ITEM_SMOOTH_ROCK
+    .moves = {MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK, MOVE_YAWN, MOVE_ICE_FANG},
     },
     {
-    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 37,
-    .species = SPECIES_SANDSLASH,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 52,
+    .species = SPECIES_PROBOPASS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_ZAP_CANNON, MOVE_POWER_GEM, MOVE_GRAVITY},
     },
     {
-    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 37,
-    .species = SPECIES_SANDSLASH,
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 52,
+    .species = SPECIES_SANDSLASH_ALOLAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = ABILITY_SHARPNESS,
+    .moves = {MOVE_GYRO_BALL, MOVE_NIGHT_SLASH, MOVE_RAPID_SPIN, MOVE_TRIPLE_AXEL},
+    },
+    {
+    .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
+    .lvl = 52,
+    .species = SPECIES_DONPHAN,
+    .moves = {MOVE_EARTHQUAKE, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_SCARY_FACE},
     }
 };
 
