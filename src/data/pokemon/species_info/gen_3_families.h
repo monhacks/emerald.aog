@@ -4374,10 +4374,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_VOLBEAT] =
     {
         .baseHP        = 65,
-        .baseAttack    = 33,
+        .baseAttack    = 40,
         .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 75 : 55,
         .baseSpeed     = 100,
-        .baseSpAttack  = 97,
+        .baseSpAttack  = 90,
         .baseSpDefense = P_UPDATED_STATS >= GEN_7 ? 85 : 75,
         .types = MON_TYPES(TYPE_BUG, TYPE_ELECTRIC),
         .catchRate = 150,
@@ -4433,10 +4433,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_ILLUMISE] =
     {
         .baseHP        = 70,
-        .baseAttack    = 32,
-        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 80 : 55,
+        .baseAttack    = 35,
+        .baseDefense   = P_UPDATED_STATS >= GEN_7 ? 85 : 55,
         .baseSpeed     = 95,
-        .baseSpAttack  = 83,
+        .baseSpAttack  = 80,
         .baseSpDefense = P_UPDATED_STATS >= GEN_7 ? 90 : 75,
         .types = MON_TYPES(TYPE_BUG, TYPE_FAIRY),
         .catchRate = 150,
