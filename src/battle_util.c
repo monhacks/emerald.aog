@@ -5513,6 +5513,18 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 effect++;
             }
             break;
+        case ABILITY_RESENTMENT:
+            if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
+             && gBattleMons[gBattlerTarget].hp == 0
+             && IsBattlerAlive(gBattlerAttacker)
+             && !(gBattleMons[gBattlerAttacker].status2 & STATUS2_CURSED))
+            {
+                gBattleMons[gBattlerAttacker].status2 = STATUS2_CURSED;
+                BattleScriptPushCursor();
+                gBattlescriptCurrInstr = BattleScript_ResentmentCurse;
+                effect++;
+            }
+            break;    
         case ABILITY_EFFECT_SPORE:
         {
             u32 ability = GetBattlerAbility(gBattlerAttacker);

@@ -3705,8 +3705,8 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
     .lvl = 17,
     .species = SPECIES_SHUPPET,
-    .moves = {MOVE_WILL_O_WISP, MOVE_RAGE, MOVE_SHADOW_SNEAK, MOVE_CURSE},
-    .ability = ABILITY_CURSED_BODY,
+    .moves = {MOVE_THIEF, MOVE_RAGE, MOVE_SHADOW_SNEAK, MOVE_CURSE},
+    .ability = ABILITY_PRANKSTER,
     },
     {
     .iv = TRAINER_PARTY_IVS(16, 16, 16, 16, 16, 16),
@@ -3719,7 +3719,7 @@ static const struct TrainerMon sParty_Brawly1[] = {
     .lvl = 20,
     .species = SPECIES_ORICORIO_SENSU,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_HEX, MOVE_FEATHER_DANCE, MOVE_PECK},
+    .moves = {MOVE_HEX, MOVE_FEATHER_DANCE, MOVE_PECK, MOVE_NONE},
     .isShiny = TRUE,
     }
 };
@@ -13310,67 +13310,78 @@ static const struct TrainerMon sParty_Gabrielle5[] = {
 static const struct TrainerMon sParty_Thalia2[] = {
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 34,
-    .species = SPECIES_WAILMER,
+    .lvl = 39,
+    .species = SPECIES_ROSERADE,
+    .moves = {MOVE_ENERGY_BALL, MOVE_TOXIC, MOVE_VENOSHOCK, MOVE_TOXIC_SPIKES},
     },
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 34,
-    .species = SPECIES_HORSEA,
+    .lvl = 39,
+    .species = SPECIES_BEWEAR,
+    .moves = {MOVE_HAMMER_ARM, MOVE_ROCK_TOMB, MOVE_STRENGTH, MOVE_BULK_UP},
     }
 };
 
 static const struct TrainerMon sParty_Thalia3[] = {
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 36,
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+    .lvl = 44,
     .species = SPECIES_LUVDISC,
+    .moves = {MOVE_WATER_PULSE, MOVE_CHARM, MOVE_LOVELY_KISS, MOVE_DRAINING_KISS},
     },
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 36,
-    .species = SPECIES_WAILMER,
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),    
+    .lvl = 44,
+    .species = SPECIES_ROSERADE,
+    .moves = {MOVE_ENERGY_BALL, MOVE_TOXIC, MOVE_VENOSHOCK, MOVE_TOXIC_SPIKES},
     },
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 36,
-    .species = SPECIES_SEADRA,
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+    .lvl = 44,
+    .species = SPECIES_BEWEAR,
+    .moves = {MOVE_HAMMER_ARM, MOVE_ROCK_TOMB, MOVE_STRENGTH, MOVE_BULK_UP},
     }
 };
 
 static const struct TrainerMon sParty_Thalia4[] = {
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 38,
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+    .lvl = 49,
     .species = SPECIES_LUVDISC,
+    .moves = {MOVE_SURF, MOVE_CHARM, MOVE_MOONBLAST, MOVE_LOVELY_KISS},
     },
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 38,
-    .species = SPECIES_WAILMER,
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+    .lvl = 49,
+    .species = SPECIES_ROSERADE,
+    .moves = {MOVE_PETAL_DANCE, MOVE_TOXIC, MOVE_VENOSHOCK, MOVE_TOXIC_SPIKES},
     },
     {
-    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 38,
-    .species = SPECIES_SEADRA,
+    .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
+    .lvl = 49,
+    .species = SPECIES_BEWEAR,
+    .moves = {MOVE_HAMMER_ARM, MOVE_ROCK_SLIDE, MOVE_THRASH, MOVE_BULK_UP},
     }
 };
 
 static const struct TrainerMon sParty_Thalia5[] = {
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 40,
+    .lvl = 53,
     .species = SPECIES_LUVDISC,
+    .moves = {MOVE_SURF, MOVE_CHARM, MOVE_MOONBLAST, MOVE_LOVELY_KISS},
     },
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 40,
-    .species = SPECIES_WAILORD,
+    .lvl = 53,
+    .species = SPECIES_ROSERADE,
+    .moves = {MOVE_PETAL_DANCE, MOVE_TOXIC, MOVE_VENOSHOCK, MOVE_TOXIC_SPIKES},
     },
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 40,
-    .species = SPECIES_KINGDRA,
+    .lvl = 53,
+    .species = SPECIES_BEWEAR,
+    .moves = {MOVE_HAMMER_ARM, MOVE_ROCK_SLIDE, MOVE_THRASH, MOVE_BULK_UP},
     }
 };
 
