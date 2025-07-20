@@ -9528,53 +9528,61 @@ static const struct TrainerMon sParty_KiraAndDan1[] = {
 
 static const struct TrainerMon sParty_KiraAndDan2[] = {
     {
-    .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 30,
+    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+    .lvl = 39,
     .species = SPECIES_VOLBEAT,
+    .moves = {MOVE_THUNDERBOLT, MOVE_TAIL_GLOW, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE},
     },
     {
-    .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
-    .lvl = 30,
+    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
+    .lvl = 39,
     .species = SPECIES_ILLUMISE,
+    .moves = {MOVE_ENCORE, MOVE_BUG_BUZZ, MOVE_DAZZLING_GLEAM, MOVE_FLATTER},
     }
 };
 
 static const struct TrainerMon sParty_KiraAndDan3[] = {
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 33,
+    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+    .lvl = 42,
     .species = SPECIES_VOLBEAT,
+    .moves = {MOVE_THUNDERBOLT, MOVE_TAIL_GLOW, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE},
     },
     {
-    .iv = TRAINER_PARTY_IVS(2, 2, 2, 2, 2, 2),
-    .lvl = 33,
+    .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
+    .lvl = 42,
     .species = SPECIES_ILLUMISE,
+    .moves = {MOVE_ENCORE, MOVE_BUG_BUZZ, MOVE_DAZZLING_GLEAM, MOVE_FLATTER},
     }
 };
 
 static const struct TrainerMon sParty_KiraAndDan4[] = {
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 36,
+    .lvl = 48,
     .species = SPECIES_VOLBEAT,
+    .moves = {MOVE_DISCHARGE, MOVE_TAIL_GLOW, MOVE_CONFUSE_RAY, MOVE_BUG_BUZZ},
     },
     {
     .iv = TRAINER_PARTY_IVS(3, 3, 3, 3, 3, 3),
-    .lvl = 36,
+    .lvl = 48,
     .species = SPECIES_ILLUMISE,
+    .moves = {MOVE_ENCORE, MOVE_BUG_BUZZ, MOVE_DAZZLING_GLEAM, MOVE_FLATTER},
     }
 };
 
 static const struct TrainerMon sParty_KiraAndDan5[] = {
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 39,
+    .lvl = 54,
     .species = SPECIES_VOLBEAT,
+    .moves = {MOVE_DISCHARGE, MOVE_TAIL_GLOW, MOVE_CONFUSE_RAY, MOVE_BUG_BUZZ},
     },
     {
     .iv = TRAINER_PARTY_IVS(4, 4, 4, 4, 4, 4),
-    .lvl = 39,
+    .lvl = 54,
     .species = SPECIES_ILLUMISE,
+    .moves = {MOVE_ENCORE, MOVE_BUG_BUZZ, MOVE_DAZZLING_GLEAM, MOVE_FLATTER},
     }
 };
 
